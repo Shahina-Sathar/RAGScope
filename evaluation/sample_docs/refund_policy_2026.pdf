@@ -1,0 +1,83 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 1386
+>>
+stream
+BT /F2 16 Tf 72 736 Td (NovaDesk Refund Policy 2026) Tj ET
+BT /F1 11 Tf 72 700 Td (NovaDesk Software Refund Policy) Tj ET
+BT /F1 11 Tf 72 685 Td (Effective Date: January 1, 2026) Tj ET
+BT /F1 11 Tf 72 670 Td () Tj ET
+BT /F1 11 Tf 72 655 Td (1. Refund Period) Tj ET
+BT /F1 11 Tf 72 640 Td (Customers may request a refund within 30 days of the original purchase date.) Tj ET
+BT /F1 11 Tf 72 625 Td (This policy supersedes the 2025 refund policy.) Tj ET
+BT /F1 11 Tf 72 610 Td () Tj ET
+BT /F1 11 Tf 72 595 Td (2. How to Request a Refund) Tj ET
+BT /F1 11 Tf 72 580 Td (Submit a refund request through the customer portal at https://portal.novadesk.example.com/refunds) Tj ET
+BT /F1 11 Tf 72 565 Td (or contact support@novadesk.example.com.) Tj ET
+BT /F1 11 Tf 72 550 Td () Tj ET
+BT /F1 11 Tf 72 535 Td (3. Refund Processing) Tj ET
+BT /F1 11 Tf 72 520 Td (Approved refunds are processed within 5-7 business days and returned to the original) Tj ET
+BT /F1 11 Tf 72 505 Td (payment method.) Tj ET
+BT /F1 11 Tf 72 490 Td () Tj ET
+BT /F1 11 Tf 72 475 Td (4. Partial Refunds) Tj ET
+BT /F1 11 Tf 72 460 Td (Annual subscriptions cancelled after the 30 day window are not eligible for partial refunds.) Tj ET
+BT /F1 11 Tf 72 445 Td () Tj ET
+BT /F1 11 Tf 72 430 Td (5. Exclusions) Tj ET
+BT /F1 11 Tf 72 415 Td (Setup fees, custom integration fees, and professional services are non-refundable.) Tj ET
+endstream
+>>
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+trailer
+<<
+/Size 5
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+1824
+%%EOF

@@ -1,0 +1,146 @@
+{
+  "name": "novadesk_benchmark_v1",
+  "description": "Benchmark dataset for NovaDesk SaaS knowledge base. Contains questions across multiple categories to test different RAG retrieval scenarios.",
+  "questions": [
+    {
+      "id": "Q001",
+      "question": "What is the current refund period?",
+      "expected_answer": "30 days from purchase date",
+      "expected_sources": ["refund_policy_2026.pdf"],
+      "category": "simple_retrieval"
+    },
+    {
+      "id": "Q002",
+      "question": "How do I request a refund?",
+      "expected_answer": "Submit a refund request through the customer portal or contact support",
+      "expected_sources": ["refund_policy_2026.pdf"],
+      "category": "simple_retrieval"
+    },
+    {
+      "id": "Q003",
+      "question": "What is the cancellation fee for the Pro plan?",
+      "expected_answer": "No cancellation fee, but prorated refunds are not available",
+      "expected_sources": ["cancellation_policy.pdf"],
+      "category": "simple_retrieval"
+    },
+    {
+      "id": "Q004",
+      "question": "What error code indicates rate limit exceeded?",
+      "expected_answer": "ERR-429",
+      "expected_sources": ["api_limits.pdf"],
+      "category": "keyword_retrieval"
+    },
+    {
+      "id": "Q005",
+      "question": "What does error code AUTH-101 mean?",
+      "expected_answer": "Invalid API key",
+      "expected_sources": ["api_documentation.pdf"],
+      "category": "keyword_retrieval"
+    },
+    {
+      "id": "Q006",
+      "question": "What is the maximum payload size for the API?",
+      "expected_answer": "10MB",
+      "expected_sources": ["api_limits.pdf"],
+      "category": "keyword_retrieval"
+    },
+    {
+      "id": "Q007",
+      "question": "What are the differences between the 2025 and 2026 refund policies?",
+      "expected_answer": "2025 policy had 14 days refund period, 2026 policy extended to 30 days",
+      "expected_sources": ["refund_policy_2025.pdf", "refund_policy_2026.pdf"],
+      "category": "version_conflict"
+    },
+    {
+      "id": "Q008",
+      "question": "Which refund policy is currently in effect?",
+      "expected_answer": "The 2026 refund policy is currently in effect",
+      "expected_sources": ["refund_policy_2026.pdf"],
+      "category": "version_conflict"
+    },
+    {
+      "id": "Q009",
+      "question": "What is the process for escalating a support ticket?",
+      "expected_answer": "Wait 48 hours for initial response, then contact support manager via escalation portal",
+      "expected_sources": ["escalation_policy.pdf", "support_sla.pdf"],
+      "category": "multi_document"
+    },
+    {
+      "id": "Q010",
+      "question": "What are the SLA commitments for Enterprise plan support?",
+      "expected_answer": "1 hour response time, 4 hour resolution time for critical issues",
+      "expected_sources": ["support_sla.pdf", "plans.pdf"],
+      "category": "multi_document"
+    },
+    {
+      "id": "Q011",
+      "question": "How does data retention relate to the privacy policy?",
+      "expected_answer": "Data retention policy specifies 7 years for financial records, privacy policy governs how that data is protected",
+      "expected_sources": ["data_retention.pdf", "privacy_policy.pdf"],
+      "category": "multi_document"
+    },
+    {
+      "id": "Q012",
+      "question": "What is the CEO's favorite color?",
+      "expected_answer": "I couldn't find sufficient information in the provided documents to answer this question",
+      "expected_sources": [],
+      "category": "missing_information"
+    },
+    {
+      "id": "Q013",
+      "question": "What is NovaDesk's stock price?",
+      "expected_answer": "I couldn't find sufficient information in the provided documents to answer this question",
+      "expected_sources": [],
+      "category": "missing_information"
+    },
+    {
+      "id": "Q014",
+      "question": "What are the pricing tiers and their features?",
+      "expected_answer": "Basic ($29/mo): 5 users, 10GB storage. Pro ($99/mo): 25 users, 100GB storage. Enterprise (Custom): Unlimited users, 1TB storage",
+      "expected_sources": ["pricing.pdf", "plans.pdf"],
+      "category": "table_retrieval"
+    },
+    {
+      "id": "Q015",
+      "question": "What are the API rate limits for each plan?",
+      "expected_answer": "Basic: 100 requests/hour. Pro: 1000 requests/hour. Enterprise: 10000 requests/hour",
+      "expected_sources": ["api_limits.pdf", "plans.pdf"],
+      "category": "table_retrieval"
+    },
+    {
+      "id": "Q016",
+      "question": "Is the refund policy the same as the cancellation policy?",
+      "expected_answer": "No, refund policy covers returning products for money back, cancellation policy covers stopping service subscriptions",
+      "expected_sources": ["refund_policy_2026.pdf", "cancellation_policy.pdf"],
+      "category": "semantic_confusion"
+    },
+    {
+      "id": "Q017",
+      "question": "What is the difference between data retention and data backup?",
+      "expected_answer": "Data retention specifies how long data is kept, data backup specifies how data is protected and recoverable",
+      "expected_sources": ["data_retention.pdf", "backup_policy.pdf"],
+      "category": "semantic_confusion"
+    },
+    {
+      "id": "Q018",
+      "question": "How do I set up SSO for my organization?",
+      "expected_answer": "Go to Admin > Security > SSO Settings, configure SAML 2.0 with your identity provider",
+      "expected_sources": ["sso_setup.pdf"],
+      "category": "simple_retrieval"
+    },
+    {
+      "id": "Q019",
+      "question": "What should I do if I get error code SYNC-503?",
+      "expected_answer": "Service temporarily unavailable, retry after 5 minutes or check status page",
+      "expected_sources": ["troubleshooting.pdf"],
+      "category": "keyword_retrieval"
+    },
+    {
+      "id": "Q020",
+      "question": "What is the backup schedule and retention period?",
+      "expected_answer": "Daily backups at 2 AM UTC, retained for 30 days. Weekly backups retained for 1 year",
+      "expected_sources": ["backup_policy.pdf"],
+      "category": "simple_retrieval"
+    }
+  ]
+}

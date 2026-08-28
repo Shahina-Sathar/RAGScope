@@ -1,0 +1,51 @@
+{
+  "name": "novadesk_benchmark_mini_v1",
+  "description": "Reduced 5-question benchmark for quick UI validation of experiments/comparison.",
+  "questions": [
+    {
+      "id": "Q001",
+      "question": "What is the current refund period?",
+      "expected_answer": "30 days from purchase date",
+      "expected_sources": [
+        "refund_policy_2026.pdf"
+      ],
+      "category": "simple_retrieval"
+    },
+    {
+      "id": "Q005",
+      "question": "What does error code AUTH-101 mean?",
+      "expected_answer": "Invalid API key",
+      "expected_sources": [
+        "api_documentation.pdf"
+      ],
+      "category": "keyword_retrieval"
+    },
+    {
+      "id": "Q012",
+      "question": "What is the CEO's favorite color?",
+      "expected_answer": "I couldn't find sufficient information in the provided documents to answer this question",
+      "expected_sources": [],
+      "category": "missing_information"
+    },
+    {
+      "id": "Q014",
+      "question": "What are the pricing tiers and their features?",
+      "expected_answer": "Basic ($29/mo): 5 users, 10GB storage. Pro ($99/mo): 25 users, 100GB storage. Enterprise (Custom): Unlimited users, 1TB storage",
+      "expected_sources": [
+        "pricing.pdf",
+        "plans.pdf"
+      ],
+      "category": "table_retrieval"
+    },
+    {
+      "id": "Q016",
+      "question": "Is the refund policy the same as the cancellation policy?",
+      "expected_answer": "No, refund policy covers returning products for money back, cancellation policy covers stopping service subscriptions",
+      "expected_sources": [
+        "refund_policy_2026.pdf",
+        "cancellation_policy.pdf"
+      ],
+      "category": "semantic_confusion"
+    }
+  ]
+}

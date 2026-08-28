@@ -1,0 +1,76 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 767
+>>
+stream
+BT /F2 16 Tf 72 736 Td (NovaDesk Support SLA) Tj ET
+BT /F1 11 Tf 72 700 Td (NovaDesk Support Service Level Agreement) Tj ET
+BT /F1 11 Tf 72 685 Td () Tj ET
+BT /F1 11 Tf 72 670 Td (Response Times) Tj ET
+BT /F1 11 Tf 72 655 Td (- Basic: 24 hours response time) Tj ET
+BT /F1 11 Tf 72 640 Td (- Pro: 4 hours response time) Tj ET
+BT /F1 11 Tf 72 625 Td (- Enterprise: 1 hour response time) Tj ET
+BT /F1 11 Tf 72 610 Td () Tj ET
+BT /F1 11 Tf 72 595 Td (Resolution Times \(critical issues\)) Tj ET
+BT /F1 11 Tf 72 580 Td (- Pro: 8 hours) Tj ET
+BT /F1 11 Tf 72 565 Td (- Enterprise: 4 hours) Tj ET
+BT /F1 11 Tf 72 550 Td () Tj ET
+BT /F1 11 Tf 72 535 Td (Support Channels) Tj ET
+BT /F1 11 Tf 72 520 Td (Support is available via email, live chat, and the support portal.) Tj ET
+endstream
+>>
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+trailer
+<<
+/Size 5
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+1204
+%%EOF

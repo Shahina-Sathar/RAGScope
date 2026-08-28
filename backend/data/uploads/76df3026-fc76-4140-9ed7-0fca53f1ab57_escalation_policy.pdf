@@ -1,0 +1,79 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 1100
+>>
+stream
+BT /F2 16 Tf 72 736 Td (NovaDesk Escalation Policy) Tj ET
+BT /F1 11 Tf 72 700 Td (NovaDesk Ticket Escalation Policy) Tj ET
+BT /F1 11 Tf 72 685 Td () Tj ET
+BT /F1 11 Tf 72 670 Td (Initial Response) Tj ET
+BT /F1 11 Tf 72 655 Td (Tickets receive an initial response within the SLA window for the plan.) Tj ET
+BT /F1 11 Tf 72 640 Td () Tj ET
+BT /F1 11 Tf 72 625 Td (Escalation) Tj ET
+BT /F1 11 Tf 72 610 Td (If a ticket has not been resolved within 48 hours of the initial response,) Tj ET
+BT /F1 11 Tf 72 595 Td (it is automatically escalated to the support manager.) Tj ET
+BT /F1 11 Tf 72 580 Td () Tj ET
+BT /F1 11 Tf 72 565 Td (Critical Escalation) Tj ET
+BT /F1 11 Tf 72 550 Td (Critical incidents \(service down, data loss\) are escalated immediately to) Tj ET
+BT /F1 11 Tf 72 535 Td (the on-call engineering team.) Tj ET
+BT /F1 11 Tf 72 520 Td () Tj ET
+BT /F1 11 Tf 72 505 Td (Escalation Portal) Tj ET
+BT /F1 11 Tf 72 490 Td (Customers on Pro and Enterprise plans can escalate manually via the) Tj ET
+BT /F1 11 Tf 72 475 Td (escalation portal at https://support.novadesk.example.com/escalate.) Tj ET
+endstream
+>>
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+trailer
+<<
+/Size 5
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+1538
+%%EOF

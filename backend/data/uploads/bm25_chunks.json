@@ -1,0 +1,110 @@
+[
+  {
+    "chunk_id": "api_limits.pdf_p1_c1",
+    "text": "NovaDesk API Limits\nNovaDesk API Rate Limits\nPer-plan hourly request limits:\n- Basic: 100 requests/hour\n- Pro: 1000 requests/hour\n- Enterprise: 10000 requests/hour\nRate Limit Error\nWhen the limit is exceeded, the API returns error code ERR-429 with a Retry-After\nheader indicating when the limit resets.\nMaximum Payload\nThe maximum request payload size is 10MB. Larger payloads return error code ERR-413.",
+    "document_name": "api_limits.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "tmpf8rq5e_r.pdf_p1_c1",
+    "text": "NovaDesk API Documentation\nNovaDesk REST API Documentation\nAuthentication\nAll API requests require an API key passed in the Authorization header as a Bearer token.\nError Codes\n- AUTH-101: Invalid API key\n- AUTH-102: API key expired\n- ERR-404: Endpoint not found\n- ERR-429: Rate limit exceeded\n- ERR-500: Internal server error\n- SYNC-503: Service temporarily unavailable\nEndpoints\n- GET /v1/tickets\n- POST /v1/tickets\n- GET /v1/tickets/{id}\n- PATCH /v1/tickets/{id}\nRate Limiting\nSee the API Limits document for per-plan request limits.",
+    "document_name": "tmpf8rq5e_r.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "tmp6eemsrgj.pdf_p1_c1",
+    "text": "NovaDesk API Documentation\nNovaDesk REST API Documentation\nAuthentication\nAll API requests require an API key passed in the Authorization header as a Bearer token.\nError Codes\n- AUTH-101: Invalid API key\n- AUTH-102: API key expired\n- ERR-404: Endpoint not found\n- ERR-429: Rate limit exceeded\n- ERR-500: Internal server error\n- SYNC-503: Service temporarily unavailable\nEndpoints\n- GET /v1/tickets\n- POST /v1/tickets\n- GET /v1/tickets/{id}\n- PATCH /v1/tickets/{id}\nRate Limiting\nSee the API Limits document for per-plan request limits.",
+    "document_name": "tmp6eemsrgj.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "tmp5qrdppi6.pdf_p1_c1",
+    "text": "NovaDesk API Documentation\nNovaDesk REST API Documentation\nAuthentication\nAll API requests require an API key passed in the Authorization header as a Bearer token.\nError Codes\n- AUTH-101: Invalid API key\n- AUTH-102: API key expired\n- ERR-404: Endpoint not found\n- ERR-429: Rate limit exceeded\n- ERR-500: Internal server error\n- SYNC-503: Service temporarily unavailable\nEndpoints\n- GET /v1/tickets\n- POST /v1/tickets\n- GET /v1/tickets/{id}\n- PATCH /v1/tickets/{id}\nRate Limiting\nSee the API Limits document for per-plan request limits.",
+    "document_name": "tmp5qrdppi6.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "api_documentation.pdf_p1_c1",
+    "text": "NovaDesk API Documentation\nNovaDesk REST API Documentation\nAuthentication\nAll API requests require an API key passed in the Authorization header as a Bearer token.\nError Codes\n- AUTH-101: Invalid API key\n- AUTH-102: API key expired\n- ERR-404: Endpoint not found\n- ERR-429: Rate limit exceeded\n- ERR-500: Internal server error\n- SYNC-503: Service temporarily unavailable\nEndpoints\n- GET /v1/tickets\n- POST /v1/tickets\n- GET /v1/tickets/{id}\n- PATCH /v1/tickets/{id}\nRate Limiting\nSee the API Limits document for per-plan request limits.",
+    "document_name": "api_documentation.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "backup_policy.pdf_p1_c1",
+    "text": "NovaDesk Backup Policy\nNovaDesk Backup Policy\nSchedule\n- Daily backups run at 2 AM UTC.\n- Weekly full backups run every Sunday at 2 AM UTC.\nRetention\n- Daily backups are retained for 30 days.\n- Weekly backups are retained for 1 year.\nRestoration\nRestoration requests must be approved by the account owner and are completed\nwithin 24 hours.\nBackup Verification\nBackups are tested monthly to ensure recoverability.",
+    "document_name": "backup_policy.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "cancellation_policy.pdf_p1_c1",
+    "text": "NovaDesk Cancellation Policy\nNovaDesk Subscription Cancellation Policy\n1. Cancellation\nCustomers may cancel their subscription at any time from the billing settings page.\n2. Effective Date\nCancellations take effect at the end of the current billing period. There is no\ncancellation fee and no prorated refund for the current period.\n3. Data Access\nAfter cancellation, data remains accessible in read-only mode for 30 days.\n4. Reactivation\nReactivation is available within 90 days of cancellation without data loss.",
+    "document_name": "cancellation_policy.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "data_retention.pdf_p1_c1",
+    "text": "NovaDesk Data Retention Policy\nNovaDesk Data Retention Policy\nFinancial Records\nFinancial and billing records are retained for 7 years to comply with\ntax and accounting regulations.\nSupport Tickets\nSupport tickets are retained for 3 years.\nLogs\nSystem logs are retained for 90 days.\nUser Data\nUpon account deletion, user data is permanently removed within 30 days,\nunless subject to a legal hold.",
+    "document_name": "data_retention.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "escalation_policy.pdf_p1_c1",
+    "text": "NovaDesk Escalation Policy\nNovaDesk Ticket Escalation Policy\nInitial Response\nTickets receive an initial response within the SLA window for the plan.\nEscalation\nIf a ticket has not been resolved within 48 hours of the initial response,\nit is automatically escalated to the support manager.\nCritical Escalation\nCritical incidents (service down, data loss) are escalated immediately to\nthe on-call engineering team.\nEscalation Portal\nCustomers on Pro and Enterprise plans can escalate manually via the\nescalation portal at https://support.novadesk.example.com/escalate.",
+    "document_name": "escalation_policy.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "plans.pdf_p1_c1",
+    "text": "NovaDesk Plans Overview\nNovaDesk Plans and Features\nBasic\n- Core ticketing and helpdesk features\n- 5 agents\n- 10 GB attachment storage\n- 100 API requests per hour\nPro\n- Everything in Basic, plus:\n- 25 agents\n- 100 GB storage\n- Advanced automation and workflows\n- 1000 API requests per hour\nEnterprise\n- Everything in Pro, plus:\n- Unlimited agents\n- 1 TB storage\n- Dedicated support manager\n- 10000 API requests per hour\n- SSO, SAML, and audit logs",
+    "document_name": "plans.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "pricing.pdf_p1_c1",
+    "text": "NovaDesk Pricing\nNovaDesk Pricing Plans\nBasic - $29/month\n- 5 users\n- 10 GB storage\n- 100 requests/hour API\n- Email support\nPro - $99/month\n- 25 users\n- 100 GB storage\n- 1000 requests/hour API\n- Priority support\nEnterprise - Custom\n- Unlimited users\n- 1 TB storage\n- 10000 requests/hour API\n- Dedicated support manager\n- SSO and SAML included\nAll plans include a 14 day free trial.",
+    "document_name": "pricing.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "privacy_policy.pdf_p1_c1",
+    "text": "NovaDesk Privacy Policy\nNovaDesk Privacy Policy\nData We Collect\nWe collect account information, usage data, and support communications to\nprovide and improve our services.\nData We Do Not Sell\nNovaDesk does not sell customer data to third parties.\nData Protection\nAll data is encrypted in transit (TLS) and at rest (AES-256).\nYour Rights\nYou may request a copy, correction, or deletion of your personal data by\ncontacting privacy@novadesk.example.com.",
+    "document_name": "privacy_policy.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "refund_policy_2025.pdf_p1_c1",
+    "text": "NovaDesk Refund Policy 2025\nNovaDesk Software Refund Policy\nEffective Date: January 1, 2025\n1. Refund Period\nCustomers may request a refund within 14 days of the original purchase date.\n2. How to Request a Refund\nSubmit a refund request through the customer portal at https://portal.novadesk.example.com/refunds\nor contact support@novadesk.example.com.\n3. Refund Processing\nApproved refunds are processed within 10 business days and returned to the original\npayment method.\n4. Partial Refunds\nAnnual subscriptions cancelled after the 14 day window are not eligible for partial refunds.\n5. Exclusions\nSetup fees, custom integration fees, and professional services are non-refundable.",
+    "document_name": "refund_policy_2025.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "refund_policy_2026.pdf_p1_c1",
+    "text": "NovaDesk Refund Policy 2026\nNovaDesk Software Refund Policy\nEffective Date: January 1, 2026\n1. Refund Period\nCustomers may request a refund within 30 days of the original purchase date.\nThis policy supersedes the 2025 refund policy.\n2. How to Request a Refund\nSubmit a refund request through the customer portal at https://portal.novadesk.example.com/refunds\nor contact support@novadesk.example.com.\n3. Refund Processing\nApproved refunds are processed within 5-7 business days and returned to the original\npayment method.\n4. Partial Refunds\nAnnual subscriptions cancelled after the 30 day window are not eligible for partial refunds.\n5. Exclusions\nSetup fees, custom integration fees, and professional services are non-refundable.",
+    "document_name": "refund_policy_2026.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "security_policy.pdf_p1_c1",
+    "text": "NovaDesk Security Policy\nNovaDesk Security Policy\nAccess Control\nAccess to production systems requires multi-factor authentication (MFA).\nEncryption\nData is encrypted at rest with AES-256 and in transit with TLS 1.2 or later.\nCompliance\nNovaDesk is SOC 2 Type II compliant and GDPR compliant.\nSecurity Contacts\nReport security issues to security@novadesk.example.com.",
+    "document_name": "security_policy.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "support_sla.pdf_p1_c1",
+    "text": "NovaDesk Support SLA\nNovaDesk Support Service Level Agreement\nResponse Times\n- Basic: 24 hours response time\n- Pro: 4 hours response time\n- Enterprise: 1 hour response time\nResolution Times (critical issues)\n- Pro: 8 hours\n- Enterprise: 4 hours\nSupport Channels\nSupport is available via email, live chat, and the support portal.",
+    "document_name": "support_sla.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "sso_setup.pdf_p1_c1",
+    "text": "NovaDesk SSO Setup Guide\nNovaDesk Single Sign-On (SSO) Setup\nPrerequisites\nSSO is available on the Enterprise plan.\nSteps\n1. Navigate to Admin > Security > SSO Settings.\n2. Select SAML 2.0 as the protocol.\n3. Upload your identity provider (IdP) metadata file.\n4. Configure attribute mapping for email and display name.\n5. Save and test the configuration.\nTroubleshooting\nIf SSO login fails, verify the IdP certificate is valid and the ACS URL matches\nthe one provided by NovaDesk.",
+    "document_name": "sso_setup.pdf",
+    "page_number": 1
+  },
+  {
+    "chunk_id": "troubleshooting.pdf_p1_c1",
+    "text": "NovaDesk Troubleshooting Guide\nNovaDesk Common Issues and Solutions\nSYNC-503: Service temporarily unavailable\nWait 5 minutes and retry. Check the NovaDesk status page at\nhttps://status.novadesk.example.com for maintenance windows.\nAUTH-101: Invalid API key\nRegenerate the API key from Admin > API Keys and update your integration.\nSync failures\nEnsure the integration is on the latest version and webhooks are enabled\nin the Admin > Integrations settings.",
+    "document_name": "troubleshooting.pdf",
+    "page_number": 1
+  }
+]

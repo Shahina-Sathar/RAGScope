@@ -1,0 +1,75 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 861
+>>
+stream
+BT /F2 16 Tf 72 736 Td (NovaDesk Troubleshooting Guide) Tj ET
+BT /F1 11 Tf 72 700 Td (NovaDesk Common Issues and Solutions) Tj ET
+BT /F1 11 Tf 72 685 Td () Tj ET
+BT /F1 11 Tf 72 670 Td (SYNC-503: Service temporarily unavailable) Tj ET
+BT /F1 11 Tf 72 655 Td (Wait 5 minutes and retry. Check the NovaDesk status page at) Tj ET
+BT /F1 11 Tf 72 640 Td (https://status.novadesk.example.com for maintenance windows.) Tj ET
+BT /F1 11 Tf 72 625 Td () Tj ET
+BT /F1 11 Tf 72 610 Td (AUTH-101: Invalid API key) Tj ET
+BT /F1 11 Tf 72 595 Td (Regenerate the API key from Admin > API Keys and update your integration.) Tj ET
+BT /F1 11 Tf 72 580 Td () Tj ET
+BT /F1 11 Tf 72 565 Td (Sync failures) Tj ET
+BT /F1 11 Tf 72 550 Td (Ensure the integration is on the latest version and webhooks are enabled) Tj ET
+BT /F1 11 Tf 72 535 Td (in the Admin > Integrations settings.) Tj ET
+endstream
+>>
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+trailer
+<<
+/Size 5
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+1298
+%%EOF

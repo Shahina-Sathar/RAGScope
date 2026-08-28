@@ -1,0 +1,71 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: ragscope-postgres
+    environment:
+      POSTGRES_USER: ragscope
+      POSTGRES_PASSWORD: ragscope
+      POSTGRES_DB: ragscope
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ragscope"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ragscope-network
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: ragscope-backend
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://ragscope:ragscope@postgres:5432/ragscope
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+      - PINECONE_INDEX_NAME=${PINECONE_INDEX_NAME:-ragscope}
+      - PINECONE_HOST=${PINECONE_HOST}
+    ports:
+      - "8000:8000"
+    volumes:
+      - upload_data:/app/data/uploads
+      - ./evaluation:/app/evaluation
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - ragscope-network
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: ragscope-frontend
+    environment:
+      - RAGSCOPE_API_URL=http://backend:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - ragscope-network
+
+volumes:
+  postgres_data:
+  upload_data:
+
+networks:
+  ragscope-network:
+    driver: bridge
+

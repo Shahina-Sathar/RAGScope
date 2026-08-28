@@ -1,0 +1,79 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 943
+>>
+stream
+BT /F2 16 Tf 72 736 Td (NovaDesk Backup Policy) Tj ET
+BT /F1 11 Tf 72 700 Td (NovaDesk Backup Policy) Tj ET
+BT /F1 11 Tf 72 685 Td () Tj ET
+BT /F1 11 Tf 72 670 Td (Schedule) Tj ET
+BT /F1 11 Tf 72 655 Td (- Daily backups run at 2 AM UTC.) Tj ET
+BT /F1 11 Tf 72 640 Td (- Weekly full backups run every Sunday at 2 AM UTC.) Tj ET
+BT /F1 11 Tf 72 625 Td () Tj ET
+BT /F1 11 Tf 72 610 Td (Retention) Tj ET
+BT /F1 11 Tf 72 595 Td (- Daily backups are retained for 30 days.) Tj ET
+BT /F1 11 Tf 72 580 Td (- Weekly backups are retained for 1 year.) Tj ET
+BT /F1 11 Tf 72 565 Td () Tj ET
+BT /F1 11 Tf 72 550 Td (Restoration) Tj ET
+BT /F1 11 Tf 72 535 Td (Restoration requests must be approved by the account owner and are completed) Tj ET
+BT /F1 11 Tf 72 520 Td (within 24 hours.) Tj ET
+BT /F1 11 Tf 72 505 Td () Tj ET
+BT /F1 11 Tf 72 490 Td (Backup Verification) Tj ET
+BT /F1 11 Tf 72 475 Td (Backups are tested monthly to ensure recoverability.) Tj ET
+endstream
+>>
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+trailer
+<<
+/Size 5
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+1380
+%%EOF

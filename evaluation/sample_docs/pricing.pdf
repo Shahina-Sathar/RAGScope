@@ -1,0 +1,85 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 1098
+>>
+stream
+BT /F2 16 Tf 72 736 Td (NovaDesk Pricing) Tj ET
+BT /F1 11 Tf 72 700 Td (NovaDesk Pricing Plans) Tj ET
+BT /F1 11 Tf 72 685 Td () Tj ET
+BT /F1 11 Tf 72 670 Td (Basic - $29/month) Tj ET
+BT /F1 11 Tf 72 655 Td (- 5 users) Tj ET
+BT /F1 11 Tf 72 640 Td (- 10 GB storage) Tj ET
+BT /F1 11 Tf 72 625 Td (- 100 requests/hour API) Tj ET
+BT /F1 11 Tf 72 610 Td (- Email support) Tj ET
+BT /F1 11 Tf 72 595 Td () Tj ET
+BT /F1 11 Tf 72 580 Td (Pro - $99/month) Tj ET
+BT /F1 11 Tf 72 565 Td (- 25 users) Tj ET
+BT /F1 11 Tf 72 550 Td (- 100 GB storage) Tj ET
+BT /F1 11 Tf 72 535 Td (- 1000 requests/hour API) Tj ET
+BT /F1 11 Tf 72 520 Td (- Priority support) Tj ET
+BT /F1 11 Tf 72 505 Td () Tj ET
+BT /F1 11 Tf 72 490 Td (Enterprise - Custom) Tj ET
+BT /F1 11 Tf 72 475 Td (- Unlimited users) Tj ET
+BT /F1 11 Tf 72 460 Td (- 1 TB storage) Tj ET
+BT /F1 11 Tf 72 445 Td (- 10000 requests/hour API) Tj ET
+BT /F1 11 Tf 72 430 Td (- Dedicated support manager) Tj ET
+BT /F1 11 Tf 72 415 Td (- SSO and SAML included) Tj ET
+BT /F1 11 Tf 72 400 Td () Tj ET
+BT /F1 11 Tf 72 385 Td (All plans include a 14 day free trial.) Tj ET
+endstream
+>>
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+trailer
+<<
+/Size 5
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+1536
+%%EOF

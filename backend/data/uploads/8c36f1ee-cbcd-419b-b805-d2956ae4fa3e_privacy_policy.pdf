@@ -1,0 +1,78 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Resources <<
+/Font <<
+/F1 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+/F2 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+>>
+>>
+/MediaBox [ 0.0 0.0 612 792 ]
+/Parent 2 0 R
+/Contents <<
+/Length 954
+>>
+stream
+BT /F2 16 Tf 72 736 Td (NovaDesk Privacy Policy) Tj ET
+BT /F1 11 Tf 72 700 Td (NovaDesk Privacy Policy) Tj ET
+BT /F1 11 Tf 72 685 Td () Tj ET
+BT /F1 11 Tf 72 670 Td (Data We Collect) Tj ET
+BT /F1 11 Tf 72 655 Td (We collect account information, usage data, and support communications to) Tj ET
+BT /F1 11 Tf 72 640 Td (provide and improve our services.) Tj ET
+BT /F1 11 Tf 72 625 Td () Tj ET
+BT /F1 11 Tf 72 610 Td (Data We Do Not Sell) Tj ET
+BT /F1 11 Tf 72 595 Td (NovaDesk does not sell customer data to third parties.) Tj ET
+BT /F1 11 Tf 72 580 Td () Tj ET
+BT /F1 11 Tf 72 565 Td (Data Protection) Tj ET
+BT /F1 11 Tf 72 550 Td (All data is encrypted in transit \(TLS\) and at rest \(AES-256\).) Tj ET
+BT /F1 11 Tf 72 535 Td () Tj ET
+BT /F1 11 Tf 72 520 Td (Your Rights) Tj ET
+BT /F1 11 Tf 72 505 Td (You may request a copy, correction, or deletion of your personal data by) Tj ET
+BT /F1 11 Tf 72 490 Td (contacting privacy@novadesk.example.com.) Tj ET
+endstream
+>>
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+trailer
+<<
+/Size 5
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+1391
+%%EOF
