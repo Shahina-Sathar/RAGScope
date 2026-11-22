@@ -1,0 +1,2056 @@
+{
+  "name": "hotpotqa-dev-distractor-100",
+  "labelling": "human (HotpotQA crowd-written questions, answers and supporting facts)",
+  "synthetic": false,
+  "source": "HotpotQA dev set, distractor setting (Yang et al., 2018), CC BY-SA 4.0",
+  "source_url": "https://huggingface.co/api/datasets/hotpotqa/hotpot_qa/parquet/distractor/validation/0.parquet",
+  "source_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+  "sampling": {
+    "seed": 42,
+    "bridge": 70,
+    "comparison": 30,
+    "corpus_pool_questions": 400
+  },
+  "warmup_question": "Deckers Creek begins west of an unincorporated area in what West Virginia county?",
+  "questions": [
+    {
+      "id": "HQ001",
+      "hotpot_id": "5ae31d5a5542990afbd1e0b1",
+      "question": "What famous composer was born in the town that hosts a festival of music and drama has featured Lilian Sukis?",
+      "reference": "Wolfgang Amadeus Mozart",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Lilian Sukis",
+        "Salzburg Festival"
+      ],
+      "reference_contexts": [
+        "Lilian Sukis\nLilian Sukis (born 29 June 1939, Kaunas) is a Canadian operatic soprano of Lithuanian birth. After earning diplomas from the University of Toronto and McMaster University, she made her professional opera debut in 1964 as Kate Pinkerton in Giacomo Puccini's \"Madama Butterfly\" with the Canadian Opera Company. In 1965 she sang the role of Countess Almaviva in Wolfgang Amadeus Mozart's \"The Marriage of Figaro\" at the Stratford Festival. That same year she became a pupil at the Metropolitan Opera Studio and School. She made her debut at the Met in 1967 as Helen Niles in the world premiere of Marvin David Levy's \"Mourning Becomes Electra\". In 1969 she became a member of the Bavarian State Opera where she remained for more than 20 years. She has also appeared as a guest artist with several major opera houses and opera festivals internationally, including the Bayreuth Festival, the Frankfurt Opera, Graz, the Hamburg State Opera, the Salzburg Festival, and the Vienna State Opera among others.",
+        "Salzburg Festival\nThe Salzburg Festival (German: \"Salzburger Festspiele\" ) is a prominent festival of music and drama established in 1920. It is held each summer (for five weeks starting in late July) within the Austrian town of Salzburg, the birthplace of Wolfgang Amadeus Mozart. One highlight is the annual performance of the play \"Jedermann\" (\"Everyman\") by Hugo von Hofmannsthal."
+      ],
+      "supporting_facts": [
+        "She has also appeared as a guest artist with several major opera houses and opera festivals internationally, including the Bayreuth Festival, the Frankfurt Opera, Graz, the Hamburg State Opera, the Salzburg Festival, and the Vienna State Opera among others.",
+        "It is held each summer (for five weeks starting in late July) within the Austrian town of Salzburg, the birthplace of Wolfgang Amadeus Mozart."
+      ]
+    },
+    {
+      "id": "HQ002",
+      "hotpot_id": "5a7b89a3554299294a54a9e3",
+      "question": "A Big Daddy is a fictional character in a series that has sold more than how many copies? ",
+      "reference": "25 million copies",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Big Daddy (BioShock)",
+        "BioShock (series)"
+      ],
+      "reference_contexts": [
+        "Big Daddy (BioShock)\nA Big Daddy is a fictional character in the \"BioShock\" series of video games. Big Daddies are heavily spliced (genetically mutated and altered with ADAM) human beings who have had their bodies directly grafted into heavily armored, steampunk-inspired atmospheric diving suits. They are armed with a rivet gun, heavy drill, rocket launcher, or ion laser. Alpha series Big Daddies are equipped with any of several other weapons as well. Though they make low-pitched groaning noises similar to whales, Big Daddies have no voice actor attributed to them. Designed by Irrational Games (then under the supervision of 2K Boston/2K Australia), they first appeared in \"BioShock\" and were promoted heavily. A six-inch Big Daddy action figure was included in the limited edition version of the title. In its sequel, \"BioShock 2\", the player controls a prototype Big Daddy.",
+        "BioShock (series)\nBioShock is a first-person shooter video game series developed by Irrational Games—the first under the name 2K Boston/2K Australia—and designed by Ken Levine. The first game in the series was released for the Windows operating system and Xbox 360 video game console on August 21, 2007 in North America, and three days later (August 24) in Europe and Australia. A PlayStation 3 version of the game, which was developed by 2K Marin, was released internationally on October 17, 2008 and in North America on October 21, 2008 with some additional features. The game was also released for the Mac OS X operating system on October 7, 2009. A version of the game for mobile platforms has also been developed by IG Fun. A sequel, \"BioShock 2\", was released on February 9, 2010. On August 12, 2010, Irrational Games unveiled a trailer for a new game titled \"BioShock Infinite\", released on March 26, 2013. With the release of \"BioShock Infinite\" selling over 11 million copies as of May 2015, the three games combined have more than 25 million copies sold."
+      ],
+      "supporting_facts": [
+        "A Big Daddy is a fictional character in the \"BioShock\" series of video games.",
+        "With the release of \"BioShock Infinite\" selling over 11 million copies as of May 2015, the three games combined have more than 25 million copies sold."
+      ]
+    },
+    {
+      "id": "HQ003",
+      "hotpot_id": "5a7344e95542991f9a20c6ce",
+      "question": "What song was number 4 on the charts when a song from FutureSex/LoveSounds was number 1?",
+      "reference": "Rudebox",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Rudebox (song)",
+        "SexyBack"
+      ],
+      "reference_contexts": [
+        "Rudebox (song)\n\"Rudebox\" is song by English musician Robbie Williams, from the his seventh studio album of the same name (2006). It is based on a sample from the song \"Boops (Here to Go)\" by Sly and Robbie. The single was released on 4 September 2006, although download purchases allowed it to reach number 30 on the UK Singles Chart on 3 September. After the release of the CD single, it ascended 26 places to number 4, selling 24,821 copies, beaten by Nelly Furtado featuring Timbaland's \"Promiscuous\", Justin Timberlake's \"SexyBack\" and Scissor Sisters' \"I Don't Feel Like Dancin'\".",
+        "SexyBack\n\"SexyBack\" is a song recorded by American singer-songwriter Justin Timberlake for his second studio album, \"FutureSex/LoveSounds\" (2006). It was released on July 18, 2006, to US mainstream and rhythmic radio stations by Jive Records as the lead single from the album. The song was written and produced by Nate Hills, Tim Mosley, and Timberlake himself. Discussing \"SexyBack\", Timberlake revealed that he went \"left\", singing the song in a rock style, not an R&B style. He described the song as musicians David Bowie and David Byrne \"covering\" James Brown's 1970 song \"Sex Machine\". The track features Timbaland on backing vocals, while Timberlake's voice is distorted. The instrumentation used in the song includes a pounding bass beat, electronic chords, and drum machine sounds."
+      ],
+      "supporting_facts": [
+        "\"Rudebox\" is song by English musician Robbie Williams, from the his seventh studio album of the same name (2006).",
+        "After the release of the CD single, it ascended 26 places to number 4, selling 24,821 copies, beaten by Nelly Furtado featuring Timbaland's \"Promiscuous\", Justin Timberlake's \"SexyBack\" and Scissor Sisters' \"I Don't Feel Like Dancin'\".",
+        "\"SexyBack\" is a song recorded by American singer-songwriter Justin Timberlake for his second studio album, \"FutureSex/LoveSounds\" (2006)."
+      ]
+    },
+    {
+      "id": "HQ004",
+      "hotpot_id": "5a8ba59a554299240d9c2058",
+      "question": "The Duke Steps Out stars an actress who was ranked tenth on a list of greatest female Hollywood stars in what year?",
+      "reference": "1999",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "The Duke Steps Out",
+        "Joan Crawford"
+      ],
+      "reference_contexts": [
+        "The Duke Steps Out\nThe Duke Steps Out is a 1929 silent film starring William Haines and Joan Crawford. The film is lost, but the Vitaphone sound discs track survive at UCLA Film and TV Archives.",
+        "Joan Crawford\nJoan Crawford (born Lucille Fay LeSueur; (March 23, 190? – May 10, 1977) was an American film and television actress who began her career as a dancer and stage showgirl. In 1999, the American Film Institute ranked Crawford tenth on its list of the greatest female stars of Classic Hollywood Cinema."
+      ],
+      "supporting_facts": [
+        "The Duke Steps Out is a 1929 silent film starring William Haines and Joan Crawford.",
+        "In 1999, the American Film Institute ranked Crawford tenth on its list of the greatest female stars of Classic Hollywood Cinema."
+      ]
+    },
+    {
+      "id": "HQ005",
+      "hotpot_id": "5a89007355429938390d4026",
+      "question": "What Brooklyn-based rapper has worked with both Rafeal Casal and Mos Def?",
+      "reference": "Talib Kweli",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Rafael Casal",
+        "Mos Def"
+      ],
+      "reference_contexts": [
+        "Rafael Casal\nRafael Casal (born August 8, 1985) is an American writer, performance poet, recording artist, educator, playwright and founding member of the group The Getback. Over his young career, Casal has been praised and awarded internationally for his poetry, featured by major print and web editorials for his music, has directed numerous theater productions and film shorts, and taught creative writing and performance to high school and University undergraduate students. His work has been featured by networks like HBO and MTV, and he has performed at hundreds of venues and University campuses throughout the country and beyond. Casal has shared the stage with the likes of Common, Talib Kweli, Mos Def, KRS-One, Floetry, Kanye West, Saul Williams, Alanis Morissette, De La Soul, Dead Prez, George Clinton, Carole King, Lauryn Hill & numerous others, performing in front of crowds of up to 30,000. His career in numerous different artistic mediums orbit his foundation in writing and storytelling, often documenting narratives and experiences from his origins in the Bay Area, California, and his travels.",
+        "Mos Def\nYasiin Bey ( ) (born Dante Terrell Smith; December 11, 1973), best known by his stage name Mos Def ( ), is an American hip hop recording artist, actor and activist from Brooklyn, New York City, New York. Best known for his music, Mos Def embarked on his hip hop career in 1994, alongside his siblings in the short-lived rap group Urban Thermo Dynamics (UTD), after which he appeared on albums by Da Bush Babees and De La Soul. He subsequently formed the duo Black Star, alongside fellow Brooklyn-based rapper Talib Kweli, and they released their eponymous debut album in 1998. He was featured on the roster of Rawkus Records and in 1999 released his solo debut, \"Black on Both Sides\". His debut was followed by \"The New Danger\" (2004), \"True Magic\" (2006) and \"The Ecstatic\" (2009). The editors at About.com listed him as the 14th greatest emcee of all time on their \"50 greatest MC's of our time\" list."
+      ],
+      "supporting_facts": [
+        "Casal has shared the stage with the likes of Common, Talib Kweli, Mos Def, KRS-One, Floetry, Kanye West, Saul Williams, Alanis Morissette, De La Soul, Dead Prez, George Clinton, Carole King, Lauryn Hill & numerous others, performing in front of crowds of up to 30,000.",
+        "He subsequently formed the duo Black Star, alongside fellow Brooklyn-based rapper Talib Kweli, and they released their eponymous debut album in 1998."
+      ]
+    },
+    {
+      "id": "HQ006",
+      "hotpot_id": "5a86edcc55429960ec39b6da",
+      "question": "What actress portrayed Rachel Green on the sitcom \"Friends\" and starred in the movie \"She's Funny That Way\"?",
+      "reference": "Jennifer Aniston",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "She's Funny That Way (film)",
+        "Jennifer Aniston"
+      ],
+      "reference_contexts": [
+        "She's Funny That Way (film)\nShe’s Funny That Way is a 2014 American screwball comedy film directed by Peter Bogdanovich and co-written with Louise Stratten. The film stars Owen Wilson, Imogen Poots, Kathryn Hahn, Will Forte, Rhys Ifans and Jennifer Aniston.",
+        "Jennifer Aniston\nJennifer Joanna Aniston (born February 11, 1969) is an American actress, producer, and businesswoman. She is the daughter of Greek-born actor John Aniston and American actress Nancy Dow. Aniston gained worldwide recognition for portraying Rachel Green on the television sitcom \"Friends\" (1994–2004), a role which earned her a Primetime Emmy Award, a Golden Globe Award, and a Screen Actors Guild Award. The character was widely popular during the airing of the series and was later recognized as one of the 100 greatest female characters in United States television."
+      ],
+      "supporting_facts": [
+        "The film stars Owen Wilson, Imogen Poots, Kathryn Hahn, Will Forte, Rhys Ifans and Jennifer Aniston.",
+        "Aniston gained worldwide recognition for portraying Rachel Green on the television sitcom \"Friends\" (1994–2004), a role which earned her a Primetime Emmy Award, a Golden Globe Award, and a Screen Actors Guild Award."
+      ]
+    },
+    {
+      "id": "HQ007",
+      "hotpot_id": "5a7e1a5455429965cec5ea5f",
+      "question": "Moonlight starred the actor who played whom on the remake of Hawaii Five-0?",
+      "reference": "Steve McGarrett",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Moonlight (TV series)",
+        "Alex O'Loughlin"
+      ],
+      "reference_contexts": [
+        "Moonlight (TV series)\nMoonlight is an American paranormal romance television drama created by Ron Koslow and Trevor Munson, who was also executive producer for all episodes with Joel Silver, Gerard Bocaccio, Gabrielle Stanton and Harry Werksman. The series follows private investigator Mick St. John (Alex O'Loughlin), who was turned into a vampire by his bride Coraline (Shannyn Sossamon) on the couple's wedding night fifty-five years earlier. In the present day, he struggles with his attraction to a mortal woman, Beth Turner (Sophia Myles), his friendship with Josef Kostan (Jason Dohring), and his dealings with other vampires in Los Angeles.",
+        "Alex O'Loughlin\nAlex O'Loughlin (born 24 August 1976) is an Australian actor, who plays Lieutenant Commander Steve McGarrett on CBS' remake of the TV series \"Hawaii Five-0\". He had starring roles in the films \"Oyster Farmer\" (2004) and \"The Back-up Plan\" (2010), as well as on such television series as \"Moonlight\" (2008) and \"Three Rivers\" (2009)."
+      ],
+      "supporting_facts": [
+        "The series follows private investigator Mick St. John (Alex O'Loughlin), who was turned into a vampire by his bride Coraline (Shannyn Sossamon) on the couple's wedding night fifty-five years earlier.",
+        "Alex O'Loughlin (born 24 August 1976) is an Australian actor, who plays Lieutenant Commander Steve McGarrett on CBS' remake of the TV series \"Hawaii Five-0\"."
+      ]
+    },
+    {
+      "id": "HQ008",
+      "hotpot_id": "5a7af32e55429931da12c99c",
+      "question": "The song \"Judgment Night\" was a collaboration between Onyx and the heavy metal band formed in which city?",
+      "reference": "Brooklyn, New York",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Judgment Night (soundtrack)",
+        "Biohazard (band)"
+      ],
+      "reference_contexts": [
+        "Judgment Night (soundtrack)\nJudgment Night is the soundtrack to the 1993 film of the same name. It was released on September 14, 1993 through Immortal Records and Epic Records and was produced by many of the album's performers. Every song on the soundtrack was a collaboration between hip-hop artists and alternative rock/alternative metal/industrial metal/industrial rock/experimental rock/experimental metal artists. The album peaked at #17 on the \"Billboard\" 200 and spawned four singles, \"Fallin'\" by Teenage Fanclub and De La Soul, \"Another Body Murdered\" by Faith No More and Boo-Yaa T.R.I.B.E., \"Just Another Victim\" by Helmet and House of Pain, and \"Judgment Night\" by Biohazard and Onyx.",
+        "Biohazard (band)\nBiohazard is an American heavy metal band formed in Brooklyn, New York in 1987. They are acknowledged as one of the earliest bands to fuse hardcore punk and heavy metal with elements of hip hop. The earliest lineup consisted of bassist/vocalist Evan Seinfeld, guitarist Bobby Hambel, and drummer Anthony Meo. Guitarist/vocalist Billy Graziadei would join the band soon after, changing the band to a four-piece. Since February 2016, the lineup has consisted of Billy Graziadei, Bobby Hambel and Danny Schuler."
+      ],
+      "supporting_facts": [
+        "The album peaked at #17 on the \"Billboard\" 200 and spawned four singles, \"Fallin'\" by Teenage Fanclub and De La Soul, \"Another Body Murdered\" by Faith No More and Boo-Yaa T.R.I.B.E., \"Just Another Victim\" by Helmet and House of Pain, and \"Judgment Night\" by Biohazard and Onyx.",
+        "Biohazard is an American heavy metal band formed in Brooklyn, New York in 1987."
+      ]
+    },
+    {
+      "id": "HQ009",
+      "hotpot_id": "5ae5b99a5542993aec5ec1ce",
+      "question": "Which American rock band was formed first, Soil or Drowning Pool?",
+      "reference": "Drowning Pool",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Soil (American band)",
+        "Drowning Pool"
+      ],
+      "reference_contexts": [
+        "Soil (American band)\nSoil, often typeset as SOiL, is an American rock band that was formed in Chicago, Illinois in 1997. After some independent releases, the band was the first rock group signed to J Records and achieved mainstream success with their major label debut, \"Scars\", in 2001. The J Records second album \"Redefine\" was released in 2004 and the band embarked upon a worldwide tour to follow. In late 2004 frontman Ryan McCombs left the group. He would go on to become the new vocalist of Drowning Pool the following year.",
+        "Drowning Pool\nDrowning Pool is an American rock band formed in Dallas, Texas in 1996. The band was named after the film \"The Drowning Pool\". Since its formation, the band has consisted of guitarist C.J. Pierce, bassist Stevie Benton and drummer Mike Luce, as well as a revolving cast of vocalists. The band's current vocalist is Jasen Moreno."
+      ],
+      "supporting_facts": [
+        "Soil, often typeset as SOiL, is an American rock band that was formed in Chicago, Illinois in 1997.",
+        "Drowning Pool is an American rock band formed in Dallas, Texas in 1996."
+      ]
+    },
+    {
+      "id": "HQ010",
+      "hotpot_id": "5adcfc135542990d50227d87",
+      "question": "The Legendary A&M Sessions contain five songs by the singer whose work was conducted with what band?",
+      "reference": "Magic Band",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "The Legendary A&amp;M Sessions",
+        "Captain Beefheart"
+      ],
+      "reference_contexts": [
+        "The Legendary A&amp;M Sessions\nThe Legendary A&M Sessions is an extended play featuring five songs by Captain Beefheart & His Magic Band, recorded early in their career for their original record label A&M Records. The EP was released by the company in 1984 after Captain Beefheart had gone into retirement.",
+        "Captain Beefheart\nDon Van Vliet ( , born Don Glen Vliet; January 15, 1941 – December 17, 2010) was an American singer, songwriter, musician and artist best known by the stage name Captain Beefheart. His musical work was conducted with a rotating ensemble of musicians called the Magic Band (1964–1982), with whom he recorded 13 studio albums. Noted for his powerful singing voice and his wide vocal range, Van Vliet also played the harmonica, saxophone, and numerous other wind instruments. His music integrated blues, rock, psychedelia, and free jazz with contemporary experimental composition and the avant-garde. Beefheart was also known for often constructing myths about his life and for exercising an almost dictatorial control over his supporting musicians."
+      ],
+      "supporting_facts": [
+        "The Legendary A&M Sessions is an extended play featuring five songs by Captain Beefheart & His Magic Band, recorded early in their career for their original record label A&M Records.",
+        "His musical work was conducted with a rotating ensemble of musicians called the Magic Band (1964–1982), with whom he recorded 13 studio albums."
+      ]
+    },
+    {
+      "id": "HQ011",
+      "hotpot_id": "5a79be0e5542994f819ef084",
+      "question": "When did the tour begin for the album Taylor Swift released on October 22, 2012?",
+      "reference": "March 13, 2013",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Red (Taylor Swift album)",
+        "The Red Tour"
+      ],
+      "reference_contexts": [
+        "Red (Taylor Swift album)\nRed is the fourth studio album by American singer-songwriter Taylor Swift. It was released on October 22, 2012, by Big Machine Records, as the follow-up to her third studio album, \"Speak Now\". The album title was inspired by the \"semi-toxic relationships\" that Swift experienced during the process of conceiving this album, which Swift described the emotions she felt as \"red emotions\" due to their intense and tumultuous nature. \"Red\" touches on Swift's signature themes of love and heartbreak, however, from a more mature perspective while exploring other themes such as fame and the pressure of being in the limelight. The album features collaborations with producers and guest artists such as Gary Lightbody of Snow Patrol and Ed Sheeran and is noted for Swift's experimentation with new musical genres. Swift completed The Red Tour in support of the album on June 12, 2014, which became the highest-grossing tour of all time by a country artist, grossing over $150 million.",
+        "The Red Tour\nThe Red Tour was the third concert tour by American singer-songwriter Taylor Swift. Launched in support of Swift's fourth studio album, \"Red\" (2012), the tour began on March 13, 2013 in Omaha, Nebraska and concluded on June 12, 2014 in Singapore."
+      ],
+      "supporting_facts": [
+        "Red is the fourth studio album by American singer-songwriter Taylor Swift.",
+        "It was released on October 22, 2012, by Big Machine Records, as the follow-up to her third studio album, \"Speak Now\".",
+        "Launched in support of Swift's fourth studio album, \"Red\" (2012), the tour began on March 13, 2013 in Omaha, Nebraska and concluded on June 12, 2014 in Singapore."
+      ]
+    },
+    {
+      "id": "HQ012",
+      "hotpot_id": "5adfc06d55429906c02daa2a",
+      "question": "What is the name of the largest shipping facility in the Northeastern United States, where the Boston Red Socks play?",
+      "reference": "Port of Boston",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Congress Street Grounds",
+        "Boston Harbor"
+      ],
+      "reference_contexts": [
+        "Congress Street Grounds\nCongress Street Grounds is a former baseball ground located in Boston, Massachusetts. The ballpark, as the name implies, was along Congress Street, near the intersection of Thompson Place, and not far from the Fort Point Channel on South Boston Flats, a newly filled in piece of land on Boston Harbor. The ground was home to the Boston Reds, that played in the Players' League in 1890 and the American Association in 1891.",
+        "Boston Harbor\nBoston Harbor is a natural harbor and estuary of Massachusetts Bay, and is located adjacent to the city of Boston, Massachusetts. It is home to the Port of Boston, a major shipping facility in the northeastern United States."
+      ],
+      "supporting_facts": [
+        "The ground was home to the Boston Reds, that played in the Players' League in 1890 and the American Association in 1891.",
+        "It is home to the Port of Boston, a major shipping facility in the northeastern United States."
+      ]
+    },
+    {
+      "id": "HQ013",
+      "hotpot_id": "5abace6b5542996cc5e49e99",
+      "question": "Irish print journalist, Arthur Quinlan, was the only one to interviewed which major figure of the Cuban Revolution?",
+      "reference": "Che Guevara",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Arthur Quinlan",
+        "Che Guevara"
+      ],
+      "reference_contexts": [
+        "Arthur Quinlan\nArthur Quinlan (15 January 1921 – 22 December 2012) was an Irish raconteur and print journalist with \"The Irish Times\". Known for his interviews with politicians, royalty and film stars in a career spanning more than 50 years, he was widely regarded as a very important figure in his field, and was both the first Irishman to get a jet across the Atlantic Ocean to New York in 1958 and the only western journalist to have interviewed Che Guevara. Considered a \"master of executing international scoops\", his work was sent across the world.",
+        "Che Guevara\nErnesto \"Che\" Guevara (] June 14, 1928 – October 9, 1967) was an Argentine Marxist revolutionary, physician, author, guerrilla leader, diplomat and military theorist. A major figure of the Cuban Revolution, his stylized visage has become a ubiquitous countercultural symbol of rebellion and global insignia in popular culture."
+      ],
+      "supporting_facts": [
+        "Arthur Quinlan (15 January 1921 – 22 December 2012) was an Irish raconteur and print journalist with \"The Irish Times\".",
+        "Known for his interviews with politicians, royalty and film stars in a career spanning more than 50 years, he was widely regarded as a very important figure in his field, and was both the first Irishman to get a jet across the Atlantic Ocean to New York in 1958 and the only western journalist to have interviewed Che Guevara.",
+        "A major figure of the Cuban Revolution, his stylized visage has become a ubiquitous countercultural symbol of rebellion and global insignia in popular culture."
+      ]
+    },
+    {
+      "id": "HQ014",
+      "hotpot_id": "5a73cf5e55429978a71e909f",
+      "question": "After coaching the red raiders to several winning seasons, where does Mike Leach currently coach at?",
+      "reference": "Washington State",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "2012 Washington State Cougars football team",
+        "Mike Leach (American football coach)"
+      ],
+      "reference_contexts": [
+        "2012 Washington State Cougars football team\nThe 2012 Washington State Cougars football team represented Washington State University during the 2012 NCAA Division I FBS football season. The team was coached by first-year head coach Mike Leach and played their home games at Martin Stadium in Pullman, Washington. They were members of the North Division of the Pac-12 Conference. They finished the season 3–9, 1–8 in Pac-12 play to finish in last place in the North Division.",
+        "Mike Leach (American football coach)\nMichael Charles Leach (born March 9, 1961) is an American college football coach. He is the head coach of the Washington State Cougars football team. Previously, he was head coach of the Texas Tech Red Raiders football team, leading the Red Raiders to winning seasons in every year of his tenure."
+      ],
+      "supporting_facts": [
+        "The 2012 Washington State Cougars football team represented Washington State University during the 2012 NCAA Division I FBS football season.",
+        "The team was coached by first-year head coach Mike Leach and played their home games at Martin Stadium in Pullman, Washington.",
+        "Previously, he was head coach of the Texas Tech Red Raiders football team, leading the Red Raiders to winning seasons in every year of his tenure."
+      ]
+    },
+    {
+      "id": "HQ015",
+      "hotpot_id": "5a73984355429908901be307",
+      "question": "What singer-songwriter performed the country pop sing \"Fifteen\"?",
+      "reference": "Taylor Swift",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Fifteen (song)",
+        "Taylor Swift"
+      ],
+      "reference_contexts": [
+        "Fifteen (song)\n\"Fifteen\" is a country pop song performed by American singer-songwriter Taylor Swift. Swift self-penned the song and co-produced it along with Nathan Chapman. \"Fifteen\" was released on August 30, 2009 by Big Machine Records, as the fourth single from Swift's second studio album, \"Fearless\" (2008). The song was inspired by Swift's freshman year of high school at Hendersonville High School, where she first encountered heartbreak, along with her best friend Abigail Anderson. After writing it, Swift asked Anderson for authorization to record the song (due to personal references in the song); Anderson affirmed and it was ultimately included on \"Fearless\". \"Fifteen\" is a ballad, which has Swift reminiscing on events that occurred to her and her best friend at the age of 15 and cautioning teenagers to not fall in love easily.",
+        "Taylor Swift\nTaylor Alison Swift (born December 13, 1989) is an American singer-songwriter. One of the leading contemporary recording artists, she is known for narrative songs about her personal life, which have received widespread media coverage."
+      ],
+      "supporting_facts": [
+        "\"Fifteen\" is a country pop song performed by American singer-songwriter Taylor Swift.",
+        "Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter."
+      ]
+    },
+    {
+      "id": "HQ016",
+      "hotpot_id": "5a7a276d5542996c55b2dd27",
+      "question": "Who was Chamberlain and Colonel of the military staff of The Merrie Monarch?",
+      "reference": "Colonel Charles Hastings Judd",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Charles Hastings Judd",
+        "Kalākaua"
+      ],
+      "reference_contexts": [
+        "Charles Hastings Judd\nColonel Charles Hastings Judd (September 8, 1835 – April 18, 1890) was an American businessman, rancher, courtier and politician of the Kingdom of Hawaii. He served as Chamberlain and Colonel of the military staff of King Kalākaua and traveled with the monarch on his 1881 world tour.",
+        "Kalākaua\nKalākaua (November 16, 1836 – January 20, 1891), born David Laʻ amea Kamananakapu Mahinulani Naloiaehuokalani Lumialani Kalākaua and sometimes called The Merrie Monarch, was the last king (and second to last monarch) of the Kingdom of Hawaiʻ i. He reigned from February 12, 1874 until his death in San Francisco, California, on January 20, 1891. Kalākaua had a convivial personality and enjoyed entertaining guests with his singing and ukulele playing. At his coronation and his birthday jubilee, the hula that had been banned from public in the kingdom became a celebration of Hawaiian culture."
+      ],
+      "supporting_facts": [
+        "Colonel Charles Hastings Judd (September 8, 1835 – April 18, 1890) was an American businessman, rancher, courtier and politician of the Kingdom of Hawaii.",
+        "He served as Chamberlain and Colonel of the military staff of King Kalākaua and traveled with the monarch on his 1881 world tour.",
+        "Kalākaua (November 16, 1836 – January 20, 1891), born David Laʻ amea Kamananakapu Mahinulani Naloiaehuokalani Lumialani Kalākaua and sometimes called The Merrie Monarch, was the last king (and second to last monarch) of the Kingdom of Hawaiʻ i."
+      ]
+    },
+    {
+      "id": "HQ017",
+      "hotpot_id": "5a862da855429960ec39b640",
+      "question": "Who sponsors the award Alex Rodriguez won two of?",
+      "reference": "Rawlings",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Alex Rodriguez",
+        "Rawlings Gold Glove Award"
+      ],
+      "reference_contexts": [
+        "Alex Rodriguez\nAlexander Emmanuel Rodriguez (born July 27, 1975), nicknamed \"A-Rod\", is a Dominican-American former professional baseball shortstop and third baseman. He played 22 seasons in Major League Baseball (MLB) for the Seattle Mariners, Texas Rangers, and New York Yankees. Rodriguez was one of the sport's most highly touted prospects and is considered one of the greatest baseball players of all time. Rodriguez amassed a .297 batting average, 696 home runs, over 2,000 runs batted in (RBI), over 2,000 runs scored, and over 3,000 hits. He is a 14-time All-Star and won three American League (AL) Most Valuable Player (MVP) Awards, ten Silver Slugger Awards, and two Gold Glove Awards. Rodríguez is the career record holder for grand slams with 25. However, he led a highly controversial career due to signing two of the most lucrative sports contracts in history while incurring criticism from the media for his behavior and use of illegal performance-enhancing drugs.",
+        "Rawlings Gold Glove Award\nThe Rawlings Gold Glove Award, usually referred to as the Gold Glove, is the award given annually to the Major League Baseball players judged to have exhibited superior individual fielding performances at each fielding position in both the National League (NL) and the American League (AL), as voted by the managers and coaches in each league. Managers are not permitted to vote for their own players. Additionally, a sabermetric component provided by Society for American Baseball Research (SABR) accounts for approximately 25 percent of the vote. Eighteen Gold Gloves are awarded each year (with the exception of 1957, 1985 and 2007), one at each of the nine positions in each league. In 1957, the baseball glove manufacturer Rawlings created the Gold Glove Award to commemorate the best fielding performance at each position. The award was created from a glove made from gold lamé-tanned leather and affixed to a walnut base. Initially, only one Gold Glove per position was awarded to the top fielder at each position in Major League Baseball; however, separate awards were given for the National and American Leagues beginning in 1958."
+      ],
+      "supporting_facts": [
+        "He is a 14-time All-Star and won three American League (AL) Most Valuable Player (MVP) Awards, ten Silver Slugger Awards, and two Gold Glove Awards.",
+        "The Rawlings Gold Glove Award, usually referred to as the Gold Glove, is the award given annually to the Major League Baseball players judged to have exhibited superior individual fielding performances at each fielding position in both the National League (NL) and the American League (AL), as voted by the managers and coaches in each league."
+      ]
+    },
+    {
+      "id": "HQ018",
+      "hotpot_id": "5a87b93c5542996e4f3088ec",
+      "question": "The Oppenheimer security hearing explored the associations of the wartime head of which laboratory?",
+      "reference": "Los Alamos",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Oppenheimer security hearing",
+        "J. Robert Oppenheimer"
+      ],
+      "reference_contexts": [
+        "Oppenheimer security hearing\nThe Oppenheimer security hearing was a 1954 proceeding by the United States Atomic Energy Commission (AEC) that explored the background, actions, and associations of J. Robert Oppenheimer, the American scientist who had headed the Los Alamos Laboratory during World War II, where he played a key part in the Manhattan Project that developed the atomic bomb. The hearing resulted in Oppenheimer's Q clearance being revoked. This marked the end of his formal relationship with the government of the United States, and generated considerable controversy regarding whether the treatment of Oppenheimer was fair, or whether it was an expression of anti-Communist McCarthyism.",
+        "J. Robert Oppenheimer\nJulius Robert Oppenheimer (April 22, 1904 – February 18, 1967) was an American theoretical physicist and professor of physics at the University of California, Berkeley. Oppenheimer was the wartime head of the Los Alamos Laboratory and is among those who are credited with being the \"father of the atomic bomb\" for their role in the Manhattan Project, the World War II undertaking that developed the first nuclear weapons used in the atomic bombings of Hiroshima and Nagasaki. The first atomic bomb was detonated on July 16, 1945, in the Trinity test in New Mexico; Oppenheimer later remarked that it brought to mind words from the \"Bhagavad Gita\": \"Now I am become Death, the destroyer of worlds.\""
+      ],
+      "supporting_facts": [
+        "The Oppenheimer security hearing was a 1954 proceeding by the United States Atomic Energy Commission (AEC) that explored the background, actions, and associations of J. Robert Oppenheimer, the American scientist who had headed the Los Alamos Laboratory during World War II, where he played a key part in the Manhattan Project that developed the atomic bomb.",
+        "Oppenheimer was the wartime head of the Los Alamos Laboratory and is among those who are credited with being the \"father of the atomic bomb\" for their role in the Manhattan Project, the World War II undertaking that developed the first nuclear weapons used in the atomic bombings of Hiroshima and Nagasaki."
+      ]
+    },
+    {
+      "id": "HQ019",
+      "hotpot_id": "5ac3165c5542995ef918c10a",
+      "question": "Which American film director hosted the 18th Independent Spirit Awards in 2002?",
+      "reference": "John Waters",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "18th Independent Spirit Awards",
+        "John Waters"
+      ],
+      "reference_contexts": [
+        "18th Independent Spirit Awards\nThe 2002 Independent Spirit Awards, honoring the best in independent filmmaking for 2002, were announced on March 22, 2003. It was hosted by John Waters.",
+        "John Waters\nJohn Samuel Waters Jr. (born April 22, 1946) is an American film director, screenwriter, author, actor, stand-up comedian, journalist, visual artist, and art collector, who rose to fame in the early 1970s for his transgressive cult films."
+      ],
+      "supporting_facts": [
+        "The 2002 Independent Spirit Awards, honoring the best in independent filmmaking for 2002, were announced on March 22, 2003.",
+        "It was hosted by John Waters.",
+        "John Samuel Waters Jr. (born April 22, 1946) is an American film director, screenwriter, author, actor, stand-up comedian, journalist, visual artist, and art collector, who rose to fame in the early 1970s for his transgressive cult films."
+      ]
+    },
+    {
+      "id": "HQ020",
+      "hotpot_id": "5ae09d6155429945ae9593d4",
+      "question": "Lee Sung-jae stars in the film Barking Dogs Never Bite which is what film genre?",
+      "reference": "comedy-drama",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Lee Sung-jae",
+        "Barking Dogs Never Bite"
+      ],
+      "reference_contexts": [
+        "Lee Sung-jae\nLee Sung-jae (born August 23, 1970) is a South Korean actor. Among his notable works include the films \"Art Museum by the Zoo\", \"Attack the Gas Station\", \"Barking Dogs Never Bite\", and \"Kick the Moon\", as well as the television series \"Lie\" and \"A Wife's Credentials\".",
+        "Barking Dogs Never Bite\nBarking Dogs Never Bite (Korean: 플란다스의 개 , also known as \"A Higher Animal\" and \"Dog of Flanders\") is a 2000 South Korean dark comedy-drama film. The film's original Korean title is a satirical take on \"A Dog of Flanders\", a European pet story that is very popular in parts of East Asia. It is also the directorial debut of Bong Joon-ho, who would later go on to direct \"Memories of Murder\" in 2003, \"The Host\" in 2006, and \"Snowpiercer\" in 2013."
+      ],
+      "supporting_facts": [
+        "Among his notable works include the films \"Art Museum by the Zoo\", \"Attack the Gas Station\", \"Barking Dogs Never Bite\", and \"Kick the Moon\", as well as the television series \"Lie\" and \"A Wife's Credentials\".",
+        "Barking Dogs Never Bite (Korean: 플란다스의 개 , also known as \"A Higher Animal\" and \"Dog of Flanders\") is a 2000 South Korean dark comedy-drama film."
+      ]
+    },
+    {
+      "id": "HQ021",
+      "hotpot_id": "5a7354e35542994cef4bc55b",
+      "question": "What is the name of second extended play by the artists of the mini-abum Code#01?",
+      "reference": "Code#02 Pretty Pretty",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Code 02 Pretty Pretty",
+        "Ladies' Code"
+      ],
+      "reference_contexts": [
+        "Code 02 Pretty Pretty\nCode#02 Pretty Pretty is the second extended play by South Korean girl group Ladies' Code. It was released on September 6, 2013 through Polaris Entertainment and CJ E&M Music. The album was well promoted with three singles. The lead single \"Hate You\" was released on August 6, 2013. The title track \"Pretty Pretty\" was released as the second single on September 6, 2013 along with the album. The third and final single \"I'm Fine Thank You\" was released on September 15, 2014 as the tribute to members EunB and RiSe who died in a fatal car accident in early September 2014.",
+        "Ladies' Code\nLadies' Code (Korean: 레이디스 코드 ) is a South Korean girl group formed by Polaris Entertainment in 2013. The group's original lineup consisted of leader Ashley and members RiSe, EunB, Sojung, and Zuny. They made their debut with the mini-album \"Code#01\" and the lead track \"Bad Girl\", which were released on March 7, 2013. On September 3, 2014, the group was involved in a car accident that resulted in the deaths of EunB and RiSe. Ladies' Code returned as a trio in February 2016 with the extended play \"Myst3ry\". In October 2016, they issued \"The Rain\" from their new mini album \"Strang3r\"."
+      ],
+      "supporting_facts": [
+        "Code#02 Pretty Pretty is the second extended play by South Korean girl group Ladies' Code.",
+        "They made their debut with the mini-album \"Code#01\" and the lead track \"Bad Girl\", which were released on March 7, 2013."
+      ]
+    },
+    {
+      "id": "HQ022",
+      "hotpot_id": "5ade063d5542995b365fabcd",
+      "question": "Donnie Smith who plays as a left back for New England Revolution belongs to what league featuring 22 teams?",
+      "reference": "Major League Soccer",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Donnie Smith",
+        "Major League Soccer"
+      ],
+      "reference_contexts": [
+        "Donnie Smith\nDonald W. \"Donnie\" Smith (born December 7, 1990 in Detroit, Michigan) is an American soccer player who plays as a left back for New England Revolution in Major League Soccer.",
+        "Major League Soccer\nMajor League Soccer (MLS) is a men's professional soccer league, sanctioned by U.S. Soccer, that represents the sport's highest level in both the United States and Canada. MLS constitutes one of the major professional sports leagues of the United States and Canada. The league comprises 22 teams—19 in the U.S. and 3 in Canada. The MLS regular season runs from March to October, with each team playing 34 games; the team with the best record is awarded the Supporters' Shield. The postseason includes twelve teams competing in the MLS Cup Playoffs through November and December, culminating in the championship game, the MLS Cup. MLS teams also play in other domestic competitions against teams from other divisions in the U.S. Open Cup and in the Canadian Championship. MLS teams also compete against continental rivals in the CONCACAF Champions League."
+      ],
+      "supporting_facts": [
+        "Donald W. \"Donnie\" Smith (born December 7, 1990 in Detroit, Michigan) is an American soccer player who plays as a left back for New England Revolution in Major League Soccer.",
+        "Major League Soccer (MLS) is a men's professional soccer league, sanctioned by U.S. Soccer, that represents the sport's highest level in both the United States and Canada.",
+        "The league comprises 22 teams—19 in the U.S. and 3 in Canada."
+      ]
+    },
+    {
+      "id": "HQ023",
+      "hotpot_id": "5a843f305542996488c2e51d",
+      "question": "When will Flicker, created by a member of One Direction, be released?",
+      "reference": "October 20, 2017",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Flicker (album)",
+        "Niall Horan"
+      ],
+      "reference_contexts": [
+        "Flicker (album)\nFlicker is the upcoming debut studio album by Irish singer and songwriter Niall Horan. It is scheduled for release on October 20, 2017, through Neon Haze Music and Capitol Records. \"This Town\" was released on 29 September 2016, as the album's lead single, followed by 2017 singles \"Slow Hands\" and \"Too Much to Ask\".",
+        "Niall Horan\nNiall James Horan (born 13 September 1993) is an Irish singer and songwriter. He is best known as a member of the boy band One Direction. In 2010, Horan auditioned as a solo artist for British televised singing competition \"The X Factor\". After being eliminated as a solo performer, Horan joined four other contestants to form One Direction. The band has released five commercially successful albums, performed on four worldwide tours, and won a number of awards."
+      ],
+      "supporting_facts": [
+        "Flicker is the upcoming debut studio album by Irish singer and songwriter Niall Horan.",
+        "It is scheduled for release on October 20, 2017, through Neon Haze Music and Capitol Records. \"",
+        "After being eliminated as a solo performer, Horan joined four other contestants to form One Direction."
+      ]
+    },
+    {
+      "id": "HQ024",
+      "hotpot_id": "5ae7e8f55542994a481bbe06",
+      "question": "Which fictional MI6 agent is a fictional character created by the British journalist and novelist Ian Fleming in 1952?",
+      "reference": "Commander James Bond RN",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Octopussy",
+        "James Bond filmography"
+      ],
+      "reference_contexts": [
+        "Octopussy\nOctopussy (1983) is the thirteenth entry in the Eon Productions \"James Bond\" film series, and the sixth to star Roger Moore as the fictional MI6 agent James Bond.",
+        "James Bond filmography\nCommander James Bond RN—code number 007—is a fictional character created by the British journalist and novelist Ian Fleming in 1952. The character appeared in a series of twelve novels and two short story collections written by Fleming and a number of continuation novels and spin-off works after Fleming's death in 1964. There have been twenty-six films in total, produced between 1962 and 2015."
+      ],
+      "supporting_facts": [
+        "Octopussy (1983) is the thirteenth entry in the Eon Productions \"James Bond\" film series, and the sixth to star Roger Moore as the fictional MI6 agent James Bond.",
+        "Commander James Bond RN—code number 007—is a fictional character created by the British journalist and novelist Ian Fleming in 1952."
+      ]
+    },
+    {
+      "id": "HQ025",
+      "hotpot_id": "5ae3b1ba5542992f92d82343",
+      "question": "Which university did the third pick by the Philadelphia 76ers in the 2014 NBA draft attend before he was drafted?",
+      "reference": "University of Kansas",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "2015–16 Philadelphia 76ers season",
+        "Joel Embiid"
+      ],
+      "reference_contexts": [
+        "2015–16 Philadelphia 76ers season\nThe 2015–16 Philadelphia 76ers season was the 77th season of the franchise in the National Basketball Association (NBA). It was also the second straight season that Joel Embiid, their third pick in the 2014 NBA draft, would not suit up for the 76ers due to a leg injury. Philadelphia broke the record for the longest losing streak in American professional sports history with 27 straight losses over this season and last season with a 114–116 loss to the Houston Rockets. The losing streak would reach to 28 games (with the 18 straight losses tying the record for longest opening season losing streak with the 2009–10 New Jersey Nets) before getting their first victory at home against the Los Angeles Lakers, which was also Kobe Bryant's last game against the 76ers in Philadelphia. Philadelphia would also hire former Phoenix Suns owner, coach, general manager, and four-time NBA Executive of the Year winner Jerry Colangelo on December 7, 2015 as their Chairman of Basketball Operations. Eleven days later, former Denver Nuggets, Phoenix Suns, New York Knicks, and Los Angeles Lakers head coach Mike D'Antoni would join the team as an associate head coach. Near the end of the season, general manager Sam Hinkie would announce his resignation from his position, being replaced by Jerry's son Bryan Colangelo before the end of the season. Jerry would also announce his personal demotion from his original position afterwards. They finished just one game shy of tying the NBA record for most losses in a season set by themselves during their 1972–73 season when they went 9–73. However, it would be the season where Sam Hinkie's goal of \"The Process\" came into full fruition since they'd later earn the #1 selection in the 2016 NBA draft.",
+        "Joel Embiid\nJoel Hans Embiid ( ; born 16 March 1994) is a Cameroonian professional basketball player for the Philadelphia 76ers of the National Basketball Association (NBA). After one year of college basketball at the University of Kansas, he was drafted with the third overall pick in the 2014 NBA draft by the 76ers. He has nicknamed himself \"The Process\" in response to a refrain from 76ers fans during the Sam Hinkie-era to \"trust the process\"."
+      ],
+      "supporting_facts": [
+        "It was also the second straight season that Joel Embiid, their third pick in the 2014 NBA draft, would not suit up for the 76ers due to a leg injury.",
+        "After one year of college basketball at the University of Kansas, he was drafted with the third overall pick in the 2014 NBA draft by the 76ers."
+      ]
+    },
+    {
+      "id": "HQ026",
+      "hotpot_id": "5ae7281c5542991e8301cb69",
+      "question": "The fourth episode The Simpsons' seventh season has what kind of theme?",
+      "reference": "spiritual",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Religion in The Simpsons",
+        "Bart Sells His Soul"
+      ],
+      "reference_contexts": [
+        "Religion in The Simpsons\nReligion is one of many recurring themes on the American animated television series \"The Simpsons\". Much of the series' religious humor satirizes aspects of Christianity and religion in general. However, some episodes, such as \"Bart Sells His Soul\" and \"Alone Again, Natura-Diddily\", can be interpreted as having a spiritual theme. The show has been both praised and criticized by atheists, agnostics, liberals, conservatives and religious people in general for its portrayal of faith and religion in society. The show can function as a mediator of biblical literacy among younger generations of irreligious viewers.",
+        "Bart Sells His Soul\n\"Bart Sells His Soul\" is the fourth episode of \"The Simpsons\"<nowiki>'</nowiki> seventh season. It first aired on the Fox network in the United States on October 8, 1995. In the episode, while being punished for playing a prank at church, Bart declares that there is no such thing as a soul and to prove it he sells his to Milhouse for $5 in the form of a piece of paper with \"Bart Simpson's soul\" written on it. Lisa warns that Bart will regret this decision, and Bart soon experiences strange changes in his life. Thinking he has really lost his soul, he becomes desperate to get it back. Lisa eventually obtains it and returns it to a relieved Bart."
+      ],
+      "supporting_facts": [
+        "However, some episodes, such as \"Bart Sells His Soul\" and \"Alone Again, Natura-Diddily\", can be interpreted as having a spiritual theme.",
+        "\"Bart Sells His Soul\" is the fourth episode of \"The Simpsons\"<nowiki>'</nowiki> seventh season."
+      ]
+    },
+    {
+      "id": "HQ027",
+      "hotpot_id": "5adcf83855429947343537e1",
+      "question": "Where in London was the 2012 Olympic event featuring athletes such as Katsuaki Susa held?",
+      "reference": "ExCeL Exhibition Centre",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Katsuaki Susa",
+        "Boxing at the 2012 Summer Olympics"
+      ],
+      "reference_contexts": [
+        "Katsuaki Susa\nKatsuaki Susa (須佐 勝明 , Susa Katsuaki , born September 13, 1984 in Aizuwakamatsu, Fukushima) is a Japanese boxer who competed at the 2012 Summer Olympics in the flyweight division (– 52 kg). He is an alumnus of the Toyo University, and is Second lieutenant in the Japan Ground Self-Defense Force.",
+        "Boxing at the 2012 Summer Olympics\nThe boxing tournaments at the 2012 Olympic Games in London were held from 28 July to 12 August at the ExCeL Exhibition Centre."
+      ],
+      "supporting_facts": [
+        "Katsuaki Susa (須佐 勝明 , Susa Katsuaki , born September 13, 1984 in Aizuwakamatsu, Fukushima) is a Japanese boxer who competed at the 2012 Summer Olympics in the flyweight division (– 52 kg).",
+        "The boxing tournaments at the 2012 Olympic Games in London were held from 28 July to 12 August at the ExCeL Exhibition Centre."
+      ]
+    },
+    {
+      "id": "HQ028",
+      "hotpot_id": "5aba926f55429901930fa83e",
+      "question": "Which Formula One World Champion had a teammate named Richie Ginther?",
+      "reference": "Graham Hill",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "1962 Italian Grand Prix",
+        "Graham Hill"
+      ],
+      "reference_contexts": [
+        "1962 Italian Grand Prix\nThe 1962 Italian Grand Prix was a Formula One motor race held at Monza on 16 September 1962. It was race 7 of 9 in both the 1962 World Championship of Drivers and the 1962 International Cup for Formula One Manufacturers. The 86-lap race was won by BRM driver Graham Hill after he started from second position. His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+        "Graham Hill\nNorman Graham Hill {'1': \", '2': \", '3': \", '4': \"} (15 February 1929 – 29 November 1975) was a British racing driver and team owner from England, who was twice Formula One World Champion. He is the only driver ever to win the Triple Crown of Motorsport—the 24 Hours of Le Mans, Indianapolis 500 and either the Monaco Grand Prix or the Formula One World Drivers' Championship. He also appeared on TV in the 1970s on a variety of non-sporting programmes including panel games. He liked painting in his spare time."
+      ],
+      "supporting_facts": [
+        "His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+        "Norman Graham Hill {'1': \", '2': \", '3': \", '4': \"} (15 February 1929 – 29 November 1975) was a British racing driver and team owner from England, who was twice Formula One World Champion."
+      ]
+    },
+    {
+      "id": "HQ029",
+      "hotpot_id": "5a86578755429960ec39b668",
+      "question": "What is the name of the company which acquired, in 2008, the world's largest beer producer that broke a distribution aggreement with Shangy's?",
+      "reference": "Anheuser-Busch",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Javad Hadian",
+        "InBev"
+      ],
+      "reference_contexts": [
+        "Javad Hadian\nJavad Hadian is an American entrepreneur and owner of Shangy's, a beer distributor founded in 1980 in Emmaus, Pennsylvania. Hadian has distribution rights to thousands of macros and micro brews, and has continued to expand his range of beers. In 1998, Shangy's became the distributor of Hoegaarden, a popular Belgian beer. The agreement entitled Shangy's to distribution rights to seventeen Pennsylvania counties. In 2004, Hadian sued InBev, the world's largest beer producer, for allegedly violating the 1998 agreement.",
+        "InBev\nInBev was a brewing company that resulted from the merger between Belgium-based company Interbrew and Brazilian brewer AmBev which took place in 2004. It existed independently until the acquisition of Anheuser-Busch in 2008, that formed Anheuser-Busch InBev (abbreviated AB InBev). InBev had operations in over 30 countries and sales in over 130 countries. In 2006, it had a market capitalization of €30.6 billion and net profit of €3.2 billion on sales of €13.3 billion."
+      ],
+      "supporting_facts": [
+        "In 2004, Hadian sued InBev, the world's largest beer producer, for allegedly violating the 1998 agreement.",
+        "It existed independently until the acquisition of Anheuser-Busch in 2008, that formed Anheuser-Busch InBev (abbreviated AB InBev)."
+      ]
+    },
+    {
+      "id": "HQ030",
+      "hotpot_id": "5abd2af955429933744ab74b",
+      "question": "What movie did actress Irene Jacob complete before the American action crime thriller film directed by Stuart Bird?",
+      "reference": "Beyond the Clouds",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Irène Jacob",
+        "U.S. Marshals (film)"
+      ],
+      "reference_contexts": [
+        "Irène Jacob\nIrène Marie Jacob (born 15 July 1966) is a French-Swiss actress known for her work with Polish film director Krzysztof Kieślowski. She won the 1991 Cannes Film Festival Award for Best Actress for the Kieślowski film \"The Double Life of Véronique\", and was nominated for the BAFTA Award for Best Actress in a Leading Role for his 1994 film \"\". Her other film appearances include \"The Secret Garden\" (1993), \"Beyond the Clouds\" (1995), \"U.S. Marshals\" (1998), and \"Eternity\" (2016).",
+        "U.S. Marshals (film)\nU.S. Marshals is a 1998 American action crime thriller film directed by Stuart Baird. The storyline was conceived from a screenplay written by Roy Huggins and John Pogue. The film is a spin-off to the 1993 motion picture \"The Fugitive\", which in turn was based on the 1960s television series of the same name, created by Huggins. The story does not involve the character of Dr. Richard Kimble, portrayed by Harrison Ford in the initial film, but instead the plot centers on United States Deputy Marshal Sam Gerard, once again played by Tommy Lee Jones. The plot follows Gerard and his team as they pursue another fugitive Mark Warren, played by Wesley Snipes, who attempts to escape government officials following an international conspiracy scandal. The cast features Robert Downey, Jr., Joe Pantoliano, Daniel Roebuck, Tom Wood, and LaTanya Richardson, several of whom portrayed Deputy Marshals in the previous film."
+      ],
+      "supporting_facts": [
+        "Irène Marie Jacob (born 15 July 1966) is a French-Swiss actress known for her work with Polish film director Krzysztof Kieślowski.",
+        "Her other film appearances include \"The Secret Garden\" (1993), \"Beyond the Clouds\" (1995), \"U.S. Marshals\" (1998), and \"Eternity\" (2016).",
+        "U.S. Marshals is a 1998 American action crime thriller film directed by Stuart Baird."
+      ]
+    },
+    {
+      "id": "HQ031",
+      "hotpot_id": "5adface25542995ec70e906c",
+      "question": "Killing You is a song by a band that consists of lead vocalist Danny Worsnop, guitarists Ben Bruce and Cameron Liddell, drummer James Cassells and what bassist?",
+      "reference": "Sam Bettley",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Killing You",
+        "Asking Alexandria"
+      ],
+      "reference_contexts": [
+        "Killing You\nKilling You is a song by English Metalcore band Asking Alexandria. It is the band's second single from their third studio album, \"From Death to Destiny\". The single was released on 16 July 2013.",
+        "Asking Alexandria\nAsking Alexandria are an English rock band from York, North Yorkshire consisting of lead vocalist Danny Worsnop, guitarists Ben Bruce and Cameron Liddell, drummer James Cassells and bassist Sam Bettley."
+      ],
+      "supporting_facts": [
+        "Killing You is a song by English Metalcore band Asking Alexandria.",
+        "Asking Alexandria are an English rock band from York, North Yorkshire consisting of lead vocalist Danny Worsnop, guitarists Ben Bruce and Cameron Liddell, drummer James Cassells and bassist Sam Bettley."
+      ]
+    },
+    {
+      "id": "HQ032",
+      "hotpot_id": "5a8be7735542997f31a41df2",
+      "question": "What conference does the team that drafted Derrick Hamilton in 2004 belong to?",
+      "reference": "National Football Conference (NFC) West",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Derrick Hamilton",
+        "San Francisco 49ers"
+      ],
+      "reference_contexts": [
+        "Derrick Hamilton\nDerrick T. Hamilton (born November 30, 1981) is a former Canadian football wide receiver. He was drafted by the San Francisco 49ers in the third round of the 2004 NFL Draft. He played college football at Clemson.",
+        "San Francisco 49ers\nThe San Francisco 49ers are a professional American football team located in the San Francisco Bay Area. They compete in the National Football League (NFL) as a member of the league's National Football Conference (NFC) West division. The team currently plays its home games at Levi's Stadium in Santa Clara, California, located 45 mi southeast of San Francisco in the heart of Silicon Valley. Since 1988, the 49ers have been headquartered in Santa Clara."
+      ],
+      "supporting_facts": [
+        "Derrick T. Hamilton (born November 30, 1981) is a former Canadian football wide receiver.",
+        "He was drafted by the San Francisco 49ers in the third round of the 2004 NFL Draft.",
+        "They compete in the National Football League (NFL) as a member of the league's National Football Conference (NFC) West division."
+      ]
+    },
+    {
+      "id": "HQ033",
+      "hotpot_id": "5a714f6f5542994082a3e7b3",
+      "question": "How many people live in the County serviced by The Collier Area Transit system?",
+      "reference": "321,520",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Collier Area Transit",
+        "Collier County, Florida"
+      ],
+      "reference_contexts": [
+        "Collier Area Transit\nCollier Area Transit (CAT) is the public transportation system in Collier County, Florida. Regular transit bus service and the paratransit system are administered by the Collier County Department of Alternative Transportation Modes. Service is provided to Immokalee, Marco Island, Golden Gate and the City of Naples area, seven days a week from 6 a.m. to 7:30 p.m. depending on the route.",
+        "Collier County, Florida\nCollier County is a county in the U.S. state of Florida. As of the 2010 census, the population was 321,520. Its county seat is East Naples, where the county offices were moved from Everglades in 1962."
+      ],
+      "supporting_facts": [
+        "Collier Area Transit (CAT) is the public transportation system in Collier County, Florida.",
+        "Collier County is a county in the U.S. state of Florida.",
+        "As of the 2010 census, the population was 321,520."
+      ]
+    },
+    {
+      "id": "HQ034",
+      "hotpot_id": "5a802ff25542992bc0c4a6d2",
+      "question": "Geoff LaTulippe is an American writer whose best-known work was directed by whom?",
+      "reference": "Nanette Burstein",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Geoff LaTulippe",
+        "Going the Distance (2010 film)"
+      ],
+      "reference_contexts": [
+        "Geoff LaTulippe\nGeoff LaTulippe is an American screenwriter and film director best known as the writer of the 2010 film \"Going the Distance\".",
+        "Going the Distance (2010 film)\nGoing the Distance is a 2010 American romantic comedy film directed by Nanette Burstein and written by Geoff LaTulippe. It stars Drew Barrymore and Justin Long as a young couple, Erin and Garrett, who fall in love one summer in New York City and try to keep their long-distance relationship alive, when Erin heads home to San Francisco."
+      ],
+      "supporting_facts": [
+        "Geoff LaTulippe is an American screenwriter and film director best known as the writer of the 2010 film \"Going the Distance\".",
+        "Going the Distance is a 2010 American romantic comedy film directed by Nanette Burstein and written by Geoff LaTulippe."
+      ]
+    },
+    {
+      "id": "HQ035",
+      "hotpot_id": "5ae6dd745542996d980e7ca0",
+      "question": "What novella was the basis of the movie that featured the song \"Wien, du Stadt meiner Träume\" by Rudolf Sieczyński?",
+      "reference": "Traumnovelle",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Rudolf Sieczyński",
+        "Eyes Wide Shut"
+      ],
+      "reference_contexts": [
+        "Rudolf Sieczyński\nRudolf Sieczyński (1879, Vienna – 1952, Vienna) was an Austrian composer of Polish ancestry. His fame today rests almost exclusively on the nostalgic Viennese song \"Wien, du Stadt meiner Träume\" (\"Vienna, City of My Dreams\"), whose melody and lyrics he wrote in 1914. A well-known recording was made in 1957 by Elisabeth Schwarzkopf with Otto Ackermann conducting the Philharmonia Orchestra. The song was featured in the soundtrack of the Stanley Kubrick film \"Eyes Wide Shut\".",
+        "Eyes Wide Shut\nEyes Wide Shut is a 1999 erotic drama film directed, produced, and co-written by Stanley Kubrick. Based on Arthur Schnitzler's 1926 novella \"Traumnovelle\" (\"Dream Story\"), the story is transferred from early 20th century Vienna to 1990s New York City. The film follows the sexually-charged adventures of Dr. Bill Harford, who is shocked when his wife, Alice, reveals that she had contemplated having an affair a year earlier. He embarks on a night-long adventure, during which he infiltrates a massive masked orgy of an unnamed secret society."
+      ],
+      "supporting_facts": [
+        "The song was featured in the soundtrack of the Stanley Kubrick film \"Eyes Wide Shut\".",
+        "Based on Arthur Schnitzler's 1926 novella \"Traumnovelle\" (\"Dream Story\"), the story is transferred from early 20th century Vienna to 1990s New York City."
+      ]
+    },
+    {
+      "id": "HQ036",
+      "hotpot_id": "5abae1725542996cc5e49ece",
+      "question": "Creolized forms of which language are found in traditional African religions of Africa with some influence from Christianity?",
+      "reference": "Kongo",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Kongo language",
+        "Afro-American religion"
+      ],
+      "reference_contexts": [
+        "Kongo language\nKongo or Kikongo is one of the Bantu languages and is spoken by the Kongo and Ndundu people living in the tropical forests of the Democratic Republic of the Congo, the Republic of the Congo and Angola. It is a tonal language. It was spoken by many of those who were taken from the region and sold as slaves in the Americas. For this reason, while Kongo still is spoken in the above-mentioned countries, creolized forms of the language are found in ritual speech of Afro-American religions, especially in Brazil, Cuba, and Haiti. It is also one of the sources of the Gullah language and the Palenquero creole in Colombia. The vast majority of present-day speakers live in Africa. There are roughly seven million native speakers of Kongo, with perhaps two million more who use it as a second language.",
+        "Afro-American religion\nAfro-American religions (also known as African diasporic religions or New World traditions) are a number of related religions that developed in the Americas in various nations of Latin America, the Caribbean, and the southern United States. They derive from traditional African religions of Africa with some influence from Christianity."
+      ],
+      "supporting_facts": [
+        "For this reason, while Kongo still is spoken in the above-mentioned countries, creolized forms of the language are found in ritual speech of Afro-American religions, especially in Brazil, Cuba, and Haiti.",
+        "Afro-American religions (also known as African diasporic religions or New World traditions) are a number of related religions that developed in the Americas in various nations of Latin America, the Caribbean, and the southern United States.",
+        "They derive from traditional African religions of Africa with some influence from Christianity."
+      ]
+    },
+    {
+      "id": "HQ037",
+      "hotpot_id": "5ab30336554299166977417c",
+      "question": "Which American comedian starred in the original cast of Saturday Night Live and played Stan Winters in the sitcom Martin?",
+      "reference": "Garrett Morris",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Garrett Morris",
+        "Martin (TV series)"
+      ],
+      "reference_contexts": [
+        "Garrett Morris\nGarrett Morris (born February 1, 1937) is an American comedian and actor. He was part of the original cast of the sketch comedy program \"Saturday Night Live\", appearing from 1975 to 1980. Morris also had a long-running role as Junior \"Uncle Junior\" King on the sitcom \"The Jamie Foxx Show\", which aired from 1996–2001. Morris had a starring role as Earl Washington on the CBS sitcom \"2 Broke Girls\", from 2011-2017. He was also in the sitcom \"Martin\" as Stan Winters from 1992-1995.",
+        "Martin (TV series)\nMartin is an American sitcom that aired for five seasons on Fox from August 27, 1992 to May 1, 1997. Reflecting the rising popularity of the Fox network throughout the 1990s, \"Martin\" was one of the network's highest-rated shows during the sitcom's run."
+      ],
+      "supporting_facts": [
+        "Garrett Morris (born February 1, 1937) is an American comedian and actor.",
+        "He was part of the original cast of the sketch comedy program \"Saturday Night Live\", appearing from 1975 to 1980.",
+        "He was also in the sitcom \"Martin\" as Stan Winters from 1992-1995.",
+        "Martin is an American sitcom that aired for five seasons on Fox from August 27, 1992 to May 1, 1997."
+      ]
+    },
+    {
+      "id": "HQ038",
+      "hotpot_id": "5a8bd49d5542997f31a41dd7",
+      "question": "Who is this American cartoonist, writer, producer, animator, and voice actor that worked with this multiple Shuster Award, Harvey Award and Eisner Award nominee and an Eisner Award–winning comic book creator?",
+      "reference": "Matt Groening",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Ian Boothby",
+        "Matt Groening"
+      ],
+      "reference_contexts": [
+        "Ian Boothby\nIan Boothby is a multiple Shuster Award, Harvey Award and Eisner Award nominee and an Eisner Award–winning comic book creator best known for his work as the lead writer on \"Simpsons Comics\" and \"Futurama Comics\" for Matt Groening's Bongo Comics. Boothby has written more \"Simpsons Comics\" than any other writer. He has also worked on various Canadian television series and is a well known stand-up, sketch and improv comedian working in the Vancouver area. He co-created Free Willie Shakespeare for the Vancouver Theatresports League which won the Jessie Richardson Theatre Award for Excellence in Interactive Theatre.",
+        "Matt Groening\nMatthew Abraham \"Matt\" Groening ( ; born February 15, 1954) is an American cartoonist, writer, producer, animator, and voice actor. He is the creator of the comic strip \"Life in Hell\" (1977–2012) and the television series \"The Simpsons\" (1989–present), \"Futurama\" (1999–2003, 2008–2013), and the upcoming \"Disenchantment\" (2018). \"The Simpsons\" has gone on to become the longest-running U.S. primetime-television series in history, as well as the longest-running animated series and sitcom."
+      ],
+      "supporting_facts": [
+        "Ian Boothby is a multiple Shuster Award, Harvey Award and Eisner Award nominee and an Eisner Award–winning comic book creator best known for his work as the lead writer on \"Simpsons Comics\" and \"Futurama Comics\" for Matt Groening's Bongo Comics.",
+        "Matthew Abraham \"Matt\" Groening ( ; born February 15, 1954) is an American cartoonist, writer, producer, animator, and voice actor."
+      ]
+    },
+    {
+      "id": "HQ039",
+      "hotpot_id": "5a7fb23f5542994857a767be",
+      "question": "What is the chemical formula of the organic material that clementines have less of than oranges?",
+      "reference": "CHO",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Clementine",
+        "Citric acid"
+      ],
+      "reference_contexts": [
+        "Clementine\nA clementine (\"Citrus × clementina\") is a hybrid between a mandarin orange and a sweet orange, so named in 1902. The exterior is a deep orange colour with a smooth, glossy appearance. Clementines can be separated into 7 to 14 segments. Similar to tangerines, they tend to be easy to peel. The clementine is also occasionally referred to as the \"Moroccan clementine\". They are typically juicy and sweet, with less acid than oranges. Their oils, like other citrus fruits, contain mostly limonene as well as myrcene, linalool, α-pinene and many complex aromatics.",
+        "Citric acid\nCitric acid is a weak organic tricarboxylic acid having the chemical formula CHO. It occurs naturally in citrus fruits. In biochemistry, it is an intermediate in the citric acid cycle, which occurs in the metabolism of all aerobic organisms."
+      ],
+      "supporting_facts": [
+        "They are typically juicy and sweet, with less acid than oranges.",
+        "Citric acid is a weak organic tricarboxylic acid having the chemical formula CHO."
+      ]
+    },
+    {
+      "id": "HQ040",
+      "hotpot_id": "5a85ecf25542991dd0999ec6",
+      "question": "Who plays opposite the double Olivier Award-winning English actress in the 2000 TV film following the relationship between \"Carry On\" film actors Sid James and Barbara Windsor?",
+      "reference": "Geoffrey Hutchings",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Cor, Blimey!",
+        "Samantha Spiro"
+      ],
+      "reference_contexts": [
+        "Cor, Blimey!\nCor, Blimey! is a 2000 TV film that follows the relationship between \"Carry On\" film actors Sid James (played by Geoffrey Hutchings) and Barbara Windsor (played by Samantha Spiro).",
+        "Samantha Spiro\nSamantha Spiro (born 20 June 1968) is a double Olivier Award-winning English actress. She is best known for portraying Barbara Windsor in the stage play \"Cleo, Camping, Emmanuelle and Dick\" and the television film \"Cor, Blimey!\", DI Vivien Friend in \"\", and Melessa Tarly in the HBO series \"Game of Thrones\"."
+      ],
+      "supporting_facts": [
+        "is a 2000 TV film that follows the relationship between \"Carry On\" film actors Sid James (played by Geoffrey Hutchings) and Barbara Windsor (played by Samantha Spiro).",
+        "Samantha Spiro (born 20 June 1968) is a double Olivier Award-winning English actress."
+      ]
+    },
+    {
+      "id": "HQ041",
+      "hotpot_id": "5ab2c0de5542992953946870",
+      "question": "Football at the 2006 Asian Games with Wisoon Wichaya as its coach was played how many days prior to the opening ceromony in Doha, Qatar in 2006? ",
+      "reference": "14",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Wisoon Wichaya",
+        "Football at the 2006 Asian Games"
+      ],
+      "reference_contexts": [
+        "Wisoon Wichaya\nWisoon Wichaya (also Visuth Vichaya) is a Thai football coach Thailand Premier League side Sisaket F.C.. He was formerly the coach of Bangkok Bank FC and has also coached the national under-23 team at the 2006 Asian Games.",
+        "Football at the 2006 Asian Games\nFootball at the 2006 Asian Games was held in Doha, Qatar from November 18 to December 15, 2006. The opening match was played 14 days prior to the opening ceremony. In this tournament, some 30 teams played in the men's competition, and 8 teams participated in women's competition."
+      ],
+      "supporting_facts": [
+        "Wisoon Wichaya (also Visuth Vichaya) is a Thai football coach Thailand Premier League side Sisaket F.C..",
+        "Football at the 2006 Asian Games was held in Doha, Qatar from November 18 to December 15, 2006.",
+        "The opening match was played 14 days prior to the opening ceremony."
+      ]
+    },
+    {
+      "id": "HQ042",
+      "hotpot_id": "5a7af23a55429931da12c994",
+      "question": "Candace Flynn was voiced by the actress who achieved mainstream success on what show?",
+      "reference": "The Suite Life of Zack & Cody",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Candace Flynn",
+        "Ashley Tisdale"
+      ],
+      "reference_contexts": [
+        "Candace Flynn\nCandace Gertrude Flynn is a main character of the Disney Channel animated television series \"Phineas and Ferb\", voiced by Ashley Tisdale and created and designed by Dan Povenmire. She first appeared in the series' pilot episode along with the other main characters who star in the A-Plot.",
+        "Ashley Tisdale\nAshley Michelle Tisdale (born July 2, 1985) is an American actress, singer, and producer. During her childhood, Tisdale was featured in over one hundred advertisements and had minor roles in television and theatre. She achieved mainstream success as Maddie Fitzpatrick in the Disney Channel series \"The Suite Life of Zack & Cody\". This success was heightened when she starred as Sharpay Evans in the \"High School Musical\" franchise. The film series proved to be a huge success for Disney and earned a large following. The success of the films led to Tisdale signing with Warner Bros. Records, releasing her debut album, \"Headstrong\" (2007), through the label. The album was a commercial success, earning a gold certification from the Recording Industry Association of America (RIAA). She starred as Candace Flynn in the animated series \"Phineas & Ferb\" from 2007 to 2015."
+      ],
+      "supporting_facts": [
+        "Candace Gertrude Flynn is a main character of the Disney Channel animated television series \"Phineas and Ferb\", voiced by Ashley Tisdale and created and designed by Dan Povenmire.",
+        "She achieved mainstream success as Maddie Fitzpatrick in the Disney Channel series \"The Suite Life of Zack & Cody\"."
+      ]
+    },
+    {
+      "id": "HQ043",
+      "hotpot_id": "5a7a15d35542996a35c170c4",
+      "question": "In what city does a Christian minister who won the singles title with Jan Kodes in the 1970 French Open currently reside?",
+      "reference": "Perth, Western Australia",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "1970 French Open",
+        "Margaret Court"
+      ],
+      "reference_contexts": [
+        "1970 French Open\nThe 1970 French Open was a tennis tournament that was held at the Stade Roland Garros in Paris in France from 25 May through 7 June 1970. It was the 69th edition of the French Open, the 40th to be open to foreign competitors, and the second Grand Slam of the year. Jan Kodeš and Margaret Court won the singles titles.",
+        "Margaret Court\nMargaret Court {'1': \", '2': \", '3': \", '4': \"} (née Smith; born 16 July 1942), also known as Margaret Smith Court, is a retired Australian tennis player and former world No. 1. She is currently a Christian minister in Perth, Western Australia. In tennis, she amassed more major titles than any other player in history."
+      ],
+      "supporting_facts": [
+        "Jan Kodeš and Margaret Court won the singles titles.",
+        "She is currently a Christian minister in Perth, Western Australia."
+      ]
+    },
+    {
+      "id": "HQ044",
+      "hotpot_id": "5ab6ddb655429953192ad39e",
+      "question": "Roden Brothers were taken over in 1953 by a group headquartered in which Canadian city ?",
+      "reference": "Montreal",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Roden Brothers",
+        "Birks Group"
+      ],
+      "reference_contexts": [
+        "Roden Brothers\nRoden Brothers was founded June 1, 1891 in Toronto, Ontario, Canada by Thomas and Frank Roden. In the 1910s the firm became known as Roden Bros. Ltd. and were later taken over by Henry Birks and Sons in 1953. Roden Bros Ltd.'s silver was supplied by the province of British Columbia and with it they produced a wide range of silver holloware and flatware in traditional English styles. The company offered a variety of flatware patterns that included Stratford, Queens, and Louis XV. Goldsmiths Stock Company were their exclusive selling agents from 1900 to 1922. Roden Bros Ltd.'s mark included the word Sterling, followed by 925, an R and a lion passant.In addition to silver hollowware and flatware, Roden Bros. Ltd. produced cut crystal and medals. In 1974 Roden Bros. Ltd. published the book, \"Rich Cut Glass\" with Clock House Publications in Peterborough, Ontario, which was a reprint of the 1917 edition published by Roden Bros., Toronto.",
+        "Birks Group\nBirks Group (formerly Birks & Mayors) is a designer, manufacturer and retailer of jewellery, timepieces, silverware and gifts, with stores and manufacturing facilities located in Canada and the United States. As of June 30, 2015, it operates stores under three different retail banners: 27 \"Maison Birks\" stores across Canada (formerly \"Birks\"), 17 \"Mayors\" stores in Florida and Georgia, and 2 \"Brinkhaus\" stores in Vancouver and Calgary. The company also operates one Rolex-branded store in Orlando. The company is headquartered in Montreal, Quebec, with American corporate offices located in Tamarac, Florida."
+      ],
+      "supporting_facts": [
+        "Ltd. and were later taken over by Henry Birks and Sons in 1953.",
+        "The company is headquartered in Montreal, Quebec, with American corporate offices located in Tamarac, Florida."
+      ]
+    },
+    {
+      "id": "HQ045",
+      "hotpot_id": "5a7a562355429941d65f25ba",
+      "question": "With what team did the player who eclipsed Bill Madlock's batting title record for a third baseman win the World Series?",
+      "reference": "New York Yankees",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Bill Madlock",
+        "Wade Boggs"
+      ],
+      "reference_contexts": [
+        "Bill Madlock\nBill \"Mad Dog\" Madlock, Jr. (born January 2, 1951) is a former Major League Baseball player. From 1973 to 1987, Madlock was a right-handed hitter who won four National League batting titles. His record of four batting titles as a third baseman would be eclipsed in 1988 by Wade Boggs. Since 1970, only Tony Gwynn has won more National League batting titles (eight). Madlock is also one of only three right-handed hitters to have won multiple National League batting titles since 1960, Roberto Clemente having also won four and Tommy Davis having won back-to-back titles in 1962 and 1963.",
+        "Wade Boggs\nWade Anthony Boggs (born June 15, 1958) is an American former professional baseball third baseman. He spent his 18-year baseball career primarily with the Boston Red Sox, but also played for the New York Yankees, with whom he won the 1996 World Series against the Atlanta Braves, and the Tampa Bay Devil Rays, with whom he reached 3,000 hits. His hitting in the 1980s and 1990s made him a perennial contender for American League batting titles. He is 33rd on the list of career leaders for batting average among Major League Baseball players with a minimum of 1000 plate appearances. Boggs was elected to the Red Sox Hall of Fame in 2004 and the Baseball Hall of Fame in 2005."
+      ],
+      "supporting_facts": [
+        "From 1973 to 1987, Madlock was a right-handed hitter who won four National League batting titles.",
+        "His record of four batting titles as a third baseman would be eclipsed in 1988 by Wade Boggs.",
+        "He spent his 18-year baseball career primarily with the Boston Red Sox, but also played for the New York Yankees, with whom he won the 1996 World Series against the Atlanta Braves, and the Tampa Bay Devil Rays, with whom he reached 3,000 hits."
+      ]
+    },
+    {
+      "id": "HQ046",
+      "hotpot_id": "5ab504865542991779162d52",
+      "question": "What term is the current chairman of Prince William County serving?",
+      "reference": "fourth term",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Prince William Board of County Supervisors",
+        "Corey Stewart (politician)"
+      ],
+      "reference_contexts": [
+        "Prince William Board of County Supervisors\nPrince William County, Virginia is divided into seven magisterial districts: Brentsville, Coles, Gainesville, Neabsco, Occoquan, Potomac, and Woodbridge. The magisterial districts each elect one supervisor to the Board of Supervisors which governs Prince William County. There is also a Chairman elected by the county at-large, bringing total Board membership to 8. A Vice-Chairman and a Chairman Pro-Tem are selected by the Board from amongst its membership. The current Chairman is Corey A. Stewart, who previously served as the Occoquan District Supervisor. The current Vice-Chairman is Supervisor Peter Candland, the Gainesville District Supervisor.",
+        "Corey Stewart (politician)\nCorey Stewart (born August 1, 1968) is an American lawyer and politician from Minnesota currently serving his fourth term as At-Large Chairman of the Board of Supervisors of Prince William County, Virginia."
+      ],
+      "supporting_facts": [
+        "Prince William County, Virginia is divided into seven magisterial districts: Brentsville, Coles, Gainesville, Neabsco, Occoquan, Potomac, and Woodbridge.",
+        "The current Chairman is Corey A. Stewart, who previously served as the Occoquan District Supervisor.",
+        "Corey Stewart (born August 1, 1968) is an American lawyer and politician from Minnesota currently serving his fourth term as At-Large Chairman of the Board of Supervisors of Prince William County, Virginia."
+      ]
+    },
+    {
+      "id": "HQ047",
+      "hotpot_id": "5ab3b42c5542992ade7c6e4f",
+      "question": "What city did the musician whose debut album shares its title with the 1959 Alfred Hitchcock hail from?",
+      "reference": "Chicago, IL",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "SoulStice",
+        "North by Northwest"
+      ],
+      "reference_contexts": [
+        "SoulStice\nAshley J. Llorens (also known as SoulStice), was born in 1979 in Chicago, IL. He started seriously pursuing music while earning his B.S. and M.S. at the University of Illinois in Urbana-Champaign. In 2003, SoulStice founded the independent label, Wandering Soul Records, concurrently with the release of his first album, North by Northwest. In addition to his career in music, he continues to pursue his career in Electrical Engineering as a Senior Researcher at the Johns Hopkins University Applied Physics Laboratory.",
+        "North by Northwest\nNorth by Northwest is a 1959 American thriller directed by Alfred Hitchcock and starring Cary Grant, Eva Marie Saint and James Mason. The screenplay was by Ernest Lehman, who wanted to write \"the Hitchcock picture to end all Hitchcock pictures\"."
+      ],
+      "supporting_facts": [
+        "Ashley J. Llorens (also known as SoulStice), was born in 1979 in Chicago, IL.",
+        "In 2003, SoulStice founded the independent label, Wandering Soul Records, concurrently with the release of his first album, North by Northwest.",
+        "North by Northwest is a 1959 American thriller directed by Alfred Hitchcock and starring Cary Grant, Eva Marie Saint and James Mason."
+      ]
+    },
+    {
+      "id": "HQ048",
+      "hotpot_id": "5ae0b0ab55429945ae959423",
+      "question": "The 2000–01 A.S. Roma season had several important signings, one of which was a player that Javier Zanetti referred to him as being what kind of player?",
+      "reference": "\"hardest player\" he has played with",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "2000–01 A.S. Roma season",
+        "Walter Samuel"
+      ],
+      "reference_contexts": [
+        "2000–01 A.S. Roma season\nIn 2001, Associazione Sportiva Roma took its third league title (after 1942 and 1983), winning Serie A only a year after rivals Lazio. Important signings were the Argentines Walter Samuel, a defender, and Gabriel Batistuta, a top striker. Fabio Capello's line-up also included Cafu, Vincent Candela, Emerson, Vincenzo Montella and captain Francesco Totti.",
+        "Walter Samuel\nWalter Adrián Luján Samuel (] ; born Walter Adrián Luján; 23 March 1978) is a retired Argentine professional footballer. Gifted with natural power and good defensive skills, Samuel has been regarded as one of the best centre-backs of his generation, and as one of football's toughest defenders, with former international teammate and Inter captain Javier Zanetti referring to him as the \"hardest player\" he has played with."
+      ],
+      "supporting_facts": [
+        "In 2001, Associazione Sportiva Roma took its third league title (after 1942 and 1983), winning Serie A only a year after rivals Lazio.",
+        "Gifted with natural power and good defensive skills, Samuel has been regarded as one of the best centre-backs of his generation, and as one of football's toughest defenders, with former international teammate and Inter captain Javier Zanetti referring to him as the \"hardest player\" he has played with."
+      ]
+    },
+    {
+      "id": "HQ049",
+      "hotpot_id": "5a8af56855429950cd6afc2f",
+      "question": "What kind of film was the film who featured Auli'i Cravalho?",
+      "reference": "3D computer-animated musical fantasy-adventure film",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Moana (2016 film)",
+        "Auli'i Cravalho"
+      ],
+      "reference_contexts": [
+        "Moana (2016 film)\nMoana ( ) is a 2016 American 3D computer-animated musical fantasy-adventure film produced by Walt Disney Animation Studios and released by Walt Disney Pictures. It is the 56th Disney animated feature film. Directed by Ron Clements and John Musker, co-directed by Don Hall and Chris Williams, the film introduces Auli'i Cravalho as Moana and features the voices of Dwayne Johnson, Rachel House, Temuera Morrison, Jemaine Clement, Nicole Scherzinger, and Alan Tudyk. The film features music written by Lin-Manuel Miranda, Opetaia Foa'i, and Mark Mancina.",
+        "Auli'i Cravalho\nAuliʻ i Cravalho ( ;) is an American actress. She made her acting debut as the title character in the 2016 film \"Moana\"."
+      ],
+      "supporting_facts": [
+        "Moana ( ) is a 2016 American 3D computer-animated musical fantasy-adventure film produced by Walt Disney Animation Studios and released by Walt Disney Pictures.",
+        "She made her acting debut as the title character in the 2016 film \"Moana\"."
+      ]
+    },
+    {
+      "id": "HQ050",
+      "hotpot_id": "5a7557d75542992d0ec05f68",
+      "question": "Which \"Roseanne\" star is in Scream 2?",
+      "reference": "Laurie Metcalf",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Scream 2",
+        "Laurie Metcalf"
+      ],
+      "reference_contexts": [
+        "Scream 2\nScream 2 is a 1997 American slasher film directed by Wes Craven and written by Kevin Williamson. It stars David Arquette, Neve Campbell, Courteney Cox, Sarah Michelle Gellar, Jamie Kennedy, Laurie Metcalf, Jerry O'Connell, Jada Pinkett and Liev Schreiber.",
+        "Laurie Metcalf\nLaura Elizabeth \"Laurie\" Metcalf (born June 16, 1955) is an American actress. She is known for her television roles as Jackie Harris on the ABC sitcom \"Roseanne\" (1988–97); Carolyn Bigsby on \"Desperate Housewives\" (2006); the recurring role of Mary Cooper on \"The Big Bang Theory\" (2007–present); Dr. Jenna James on \"Getting On\" (2013–15), and Marjorie McCarthy in \"The McCarthys\" (2014–15). She voiced the role of Mrs. Davis in the \"Toy Story\" film series. Her other film appearances include \"Making Mr. Right\" (1987), \"JFK\" (1991), \"Mistress\" (1992), and as Debbie Salt / Mrs. Loomis in \"Scream 2\" (1997). She has also appeared in commercials for Plan USA, a humanitarian organization which helps children in need around the world."
+      ],
+      "supporting_facts": [
+        "Scream 2 is a 1997 American slasher film directed by Wes Craven and written by Kevin Williamson.",
+        "It stars David Arquette, Neve Campbell, Courteney Cox, Sarah Michelle Gellar, Jamie Kennedy, Laurie Metcalf, Jerry O'Connell, Jada Pinkett and Liev Schreiber.",
+        "She is known for her television roles as Jackie Harris on the ABC sitcom \"Roseanne\" (1988–97); Carolyn Bigsby on \"Desperate Housewives\" (2006); the recurring role of Mary Cooper on \"The Big Bang Theory\" (2007–present); Dr. Jenna James on \"Getting On\" (2013–15), and Marjorie McCarthy in \"The McCarthys\" (2014–15).",
+        "Her other film appearances include \"Making Mr. Right\" (1987), \"JFK\" (1991), \"Mistress\" (1992), and as Debbie Salt / Mrs. Loomis in \"Scream 2\" (1997)."
+      ]
+    },
+    {
+      "id": "HQ051",
+      "hotpot_id": "5abe044d5542991f661060a7",
+      "question": "What association did the woman whose museum is located in the Bolling–Gatewood House help found?",
+      "reference": "NAACP",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Bolling–Gatewood House",
+        "Ida B. Wells"
+      ],
+      "reference_contexts": [
+        "Bolling–Gatewood House\nThe Bolling–Gatewood House is a historic cottage in Holly Springs, Mississippi, USA. It is home to the Ida B. Wells-Barnett Museum, named for former slave, journalist, and suffragist Ida B. Wells.",
+        "Ida B. Wells\nIda Bell Wells-Barnett (July 16, 1862 – March 25, 1931), more commonly known as Ida B. Wells, was an African-American journalist, newspaper editor, suffragist, sociologist, feminist, Georgist, and an early leader in the Civil Rights Movement. She was one of the founders of the National Association for the Advancement of Colored People (NAACP) in 1909."
+      ],
+      "supporting_facts": [
+        "It is home to the Ida B. Wells-Barnett Museum, named for former slave, journalist, and suffragist Ida B. Wells.",
+        "She was one of the founders of the National Association for the Advancement of Colored People (NAACP) in 1909."
+      ]
+    },
+    {
+      "id": "HQ052",
+      "hotpot_id": "5adc83c65542994d58a2f623",
+      "question": "How many students attend the Swiss University Philip Kraft has lectured at?",
+      "reference": "26,000",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Philip Kraft",
+        "University of Zurich"
+      ],
+      "reference_contexts": [
+        "Philip Kraft\nPhilip Kraft (born in Rendsburg on March 24, 1969) is a German fragrance chemist. Since 1996 he has been employed by Givaudan, a leading Flavor and Fragrance company, where he designs captive odorants for use in perfumes. He has lectured at the University of Bern, the University of Zurich, and the ETH Zurich.",
+        "University of Zurich\nThe University of Zurich (UZH, German: \"Universität Zürich\" ), located in the city of Zürich, is the largest university in Switzerland, with over 26,000 students. It was founded in 1833 from the existing colleges of theology, law, medicine and a new faculty of philosophy."
+      ],
+      "supporting_facts": [
+        "He has lectured at the University of Bern, the University of Zurich, and the ETH Zurich.",
+        "The University of Zurich (UZH, German: \"Universität Zürich\" ), located in the city of Zürich, is the largest university in Switzerland, with over 26,000 students."
+      ]
+    },
+    {
+      "id": "HQ053",
+      "hotpot_id": "5a7cc700554299452d57ba4e",
+      "question": "What speech by Abraham Lincoln was part of Richard Heffner's A Documentary History of the United States?",
+      "reference": "Gettysburg Address",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Richard Heffner",
+        "Gettysburg Address"
+      ],
+      "reference_contexts": [
+        "Richard Heffner\nRichard Douglas Heffner (August 5, 1925 – December 17, 2013) was the creator and host of \"The Open Mind,\" a public affairs television show first broadcast in 1956. He was a University Professor of Communications and Public Policy at Rutgers University and also taught an honors seminar at New York University. He was the author of \"A Documentary History of the United States,\" a verbatim anthology of important public documents in American history, among them the Declaration of Independence, the Gettysburg Address and Martin Luther King's Letter from a Birmingham Jail. Heffner collaborated with Nobel Peace Prize winner Elie Wiesel on the publication of \"Conversations With Elie Wiesel\", released by Schochen books in 2001.",
+        "Gettysburg Address\nThe Gettysburg Address is a speech by U.S. President Abraham Lincoln, one of the best-known in American history. It was delivered by Lincoln during the American Civil War, on the afternoon of Thursday, November 19, 1863, at the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania, four and a half months after the Union armies defeated those of the Confederacy at the Battle of Gettysburg."
+      ],
+      "supporting_facts": [
+        "Richard Douglas Heffner (August 5, 1925 – December 17, 2013) was the creator and host of \"The Open Mind,\" a public affairs television show first broadcast in 1956.",
+        "He was the author of \"A Documentary History of the United States,\" a verbatim anthology of important public documents in American history, among them the Declaration of Independence, the Gettysburg Address and Martin Luther King's Letter from a Birmingham Jail.",
+        "The Gettysburg Address is a speech by U.S. President Abraham Lincoln, one of the best-known in American history."
+      ]
+    },
+    {
+      "id": "HQ054",
+      "hotpot_id": "5ab6c181554299110f219a5f",
+      "question": "In which album was American rapper Kendrick Lamar's first number-one single on the US \"Billboard\" Hot 100 included?",
+      "reference": "\"1989\" (2014)",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Humble (song)",
+        "Bad Blood (Taylor Swift song)"
+      ],
+      "reference_contexts": [
+        "Humble (song)\n\"Humble\" (stylized as \"HUMBLE.\") is a song by American rapper Kendrick Lamar. It was released on March 30, 2017, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The song, written by Lamar and Mike Will Made It and produced by the latter, was serviced to rhythmic contemporary radio as the lead single from Lamar's fourth studio album, \"Damn\". The single became Lamar's second number-one single on the US \"Billboard\" Hot 100 after \"Bad Blood\" and his first as a lead artist.",
+        "Bad Blood (Taylor Swift song)\n\"Bad Blood\" is a song by American singer-songwriter Taylor Swift, from her fifth studio album \"1989\" (2014). The remixed version of the song, featuring American rapper Kendrick Lamar, was released on May 17, 2015, by Republic Records as \"1989\"' s fourth single. The album version was written by Swift, Max Martin, and Shellback, with Lamar writing his verses on the remixed version. The lyrics of \"Bad Blood\" describe betrayal by a close friend. The album version is the eighth track of \"1989\"."
+      ],
+      "supporting_facts": [
+        "\"Humble\" (stylized as \"HUMBLE.\")",
+        "The single became Lamar's second number-one single on the US \"Billboard\" Hot 100 after \"Bad Blood\" and his first as a lead artist.",
+        "\"Bad Blood\" is a song by American singer-songwriter Taylor Swift, from her fifth studio album \"1989\" (2014)."
+      ]
+    },
+    {
+      "id": "HQ055",
+      "hotpot_id": "5a78ce5d55429974737f78ac",
+      "question": "The southernmost administrative region of Denmark is well-known for creating what products?",
+      "reference": "beer and soft drinks",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Faxe",
+        "Region Zealand"
+      ],
+      "reference_contexts": [
+        "Faxe\nFaxe or Fakse is a town on the island of Zealand in eastern Denmark. It is located in Faxe Municipality in Region Zealand. The town is most known for Faxe Bryggeri, a relatively large brewery producing a range of beer and soft drinks. On the edge of town lies a big limestone quarry (1 km2), Faxe Quarry, owned by Faxe Kalk.",
+        "Region Zealand\nZealand Region (Danish: \"Region Sjælland\" ) is the southernmost administrative region of Denmark, established on January 1, 2007 as part of the 2007 Danish Municipal Reform, which replaced the traditional counties (\"amter\") with five larger regions."
+      ],
+      "supporting_facts": [
+        "It is located in Faxe Municipality in Region Zealand.",
+        "The town is most known for Faxe Bryggeri, a relatively large brewery producing a range of beer and soft drinks.",
+        "Zealand Region (Danish: \"Region Sjælland\" ) is the southernmost administrative region of Denmark, established on January 1, 2007 as part of the 2007 Danish Municipal Reform, which replaced the traditional counties (\"amter\") with five larger regions."
+      ]
+    },
+    {
+      "id": "HQ056",
+      "hotpot_id": "5add596f5542990dbb2f7e4d",
+      "question": "Grown-Ups starred the actor who was best known for which role on  \"'Allo 'Allo!\"?",
+      "reference": "Captain Hans Geering",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Grown-Ups",
+        "Sam Kelly"
+      ],
+      "reference_contexts": [
+        "Grown-Ups\nGrown-Ups is a 1980 British BBC television film devised and directed by Mike Leigh. It stars Lesley Manville, Philip Davis, Brenda Blethyn, Janine Duvitski, Lindsay Duncan and Sam Kelly. It was edited by Robin Sales and produced by Louis Marks for the BBC, and originally shown on BBC 2 on 28 November 1980.",
+        "Sam Kelly\nRoger Michael Kelly (19 December 1943 – 14 June 2014), known by the stage name Sam Kelly, was an English actor who appeared in film, television, radio and theatre. He is best known for his roles as Captain Hans Geering in \"'Allo 'Allo!\", Warren in \"Porridge\" and Ted Liversidge in \"Barbara\"."
+      ],
+      "supporting_facts": [
+        "It stars Lesley Manville, Philip Davis, Brenda Blethyn, Janine Duvitski, Lindsay Duncan and Sam Kelly.",
+        "He is best known for his roles as Captain Hans Geering in \"'Allo 'Allo!"
+      ]
+    },
+    {
+      "id": "HQ057",
+      "hotpot_id": "5a8db788554299653c1aa145",
+      "question": "Which male singer performed together with a female American singer, who was born in 1954 and whose third studio album was named Through His Eyes, have a hit duet with in 1985?",
+      "reference": "Phil Collins",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Through His Eyes",
+        "Marilyn Martin"
+      ],
+      "reference_contexts": [
+        "Through His Eyes\nThrough His Eyes is the third studio album from American singer Marilyn Martin. It was originally recorded for a release in 1994, however the album was shelved and did not receive an official release.",
+        "Marilyn Martin\nMarilyn Martin (born May 4, 1954) is an American singer and songwriter. She is best known for her 1985 hit duet with Phil Collins, \"Separate Lives.\""
+      ],
+      "supporting_facts": [
+        "Through His Eyes is the third studio album from American singer Marilyn Martin.",
+        "Marilyn Martin (born May 4, 1954) is an American singer and songwriter.",
+        "She is best known for her 1985 hit duet with Phil Collins, \"Separate Lives.\""
+      ]
+    },
+    {
+      "id": "HQ058",
+      "hotpot_id": "5ae2295c554299495565da13",
+      "question": "The Missouri attorney general election of 2012 ended in a loss for which attorney and CNN contributor?",
+      "reference": "Edward Robert Martin Jr.",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Missouri attorney general election, 2012",
+        "Ed Martin (Missouri politician)"
+      ],
+      "reference_contexts": [
+        "Missouri attorney general election, 2012\nThe Missouri attorney general election of 2012 was held on November 6, 2012, alongside the presidential and gubernatorial elections. The current Missouri Attorney General Chris Koster, a Democrat, won re-election for a second full term against Republican attorney Ed Martin.",
+        "Ed Martin (Missouri politician)\nEdward Robert Martin Jr. is an American politician and attorney from the state of Missouri. He is president of Phyllis Schlafly Eagles, and a CNN contributor."
+      ],
+      "supporting_facts": [
+        "The current Missouri Attorney General Chris Koster, a Democrat, won re-election for a second full term against Republican attorney Ed Martin.",
+        "Edward Robert Martin Jr. is an American politician and attorney from the state of Missouri.",
+        "He is president of Phyllis Schlafly Eagles, and a CNN contributor."
+      ]
+    },
+    {
+      "id": "HQ059",
+      "hotpot_id": "5ae1a8c05542997f29b3c0ec",
+      "question": "Where is the location of Liberty Square park in Disneyland California?",
+      "reference": "Anaheim",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Liberty Square (Magic Kingdom)",
+        "Mark Twain Riverboat"
+      ],
+      "reference_contexts": [
+        "Liberty Square (Magic Kingdom)\nLiberty Square is one of six \"themed lands\" and is exclusive to the Magic Kingdom, a theme park at the Walt Disney World Resort in Lake Buena Vista, Florida. Themed after colonial America, replicas of both the Liberty Bell and Liberty Tree can be seen here. One of the most popular attractions in the Magic Kingdom, the Haunted Mansion, is located in this land. Presiding over the square is the Hall of Presidents, an American history show featuring an audio-animatronic figure of every President of the United States. Liberty Square has a long waterfront on the Rivers of America and the \"Liberty Belle\" Riverboat steam paddleboat departs from a landing here. The land affords excellent views of the river and Tom Sawyer Island in adjacent Frontierland.",
+        "Mark Twain Riverboat\n\"Mark Twain\" Riverboat is an attraction, located at the Disneyland theme park in Anaheim, California, on which passengers embark on a scenic, 12-minute journey around the Rivers of America. Originally named \"Mark Twain\" Steamboat when the park opened in 1955, the stately, 5/8-scale stern-wheeler was the first functional riverboat to be built in the United States for fifty years. Other Disney riverboat attractions now appear at Walt Disney World, Tokyo Disneyland and Disneyland Paris."
+      ],
+      "supporting_facts": [
+        "Liberty Square has a long waterfront on the Rivers of America and the \"Liberty Belle\" Riverboat steam paddleboat departs from a landing here.",
+        "\"Mark Twain\" Riverboat is an attraction, located at the Disneyland theme park in Anaheim, California, on which passengers embark on a scenic, 12-minute journey around the Rivers of America."
+      ]
+    },
+    {
+      "id": "HQ060",
+      "hotpot_id": "5ab53436554299637185c504",
+      "question": "where was the musician and stand up comedian who recorded and released a live performance at London's Bloomsbury Theatre in May 2008 born?",
+      "reference": "Northampton, England",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "So F**king Rock Live",
+        "Tim Minchin"
+      ],
+      "reference_contexts": [
+        "So F**king Rock Live\nSo F**king Rock Live (also known as \"So Fucking Rock Live\") is a DVD released by Australian musician and stand-up comedian Tim Minchin. It is a recording of his live performance at London's Bloomsbury Theatre in May 2008 and contains songs and material from his previous \"Darkside\" and \"So Rock\" albums.",
+        "Tim Minchin\nTimothy David Minchin (born 7 October 1975) is an Australian comedian, actor, writer, musician and director. He was born in Northampton, England, to Australian parents, but raised in Perth, Western Australia."
+      ],
+      "supporting_facts": [
+        "So F**king Rock Live (also known as \"So Fucking Rock Live\") is a DVD released by Australian musician and stand-up comedian Tim Minchin.",
+        "It is a recording of his live performance at London's Bloomsbury Theatre in May 2008 and contains songs and material from his previous \"Darkside\" and \"So Rock\" albums.",
+        "He was born in Northampton, England, to Australian parents, but raised in Perth, Western Australia."
+      ]
+    },
+    {
+      "id": "HQ061",
+      "hotpot_id": "5adf24155542992d7e9f92af",
+      "question": "Richard Münch portrayed the German general who served in what capacity during WWII in the 1970 movie Patton?",
+      "reference": "Oberkommando der Wehrmacht",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Richard Münch (actor)",
+        "Alfred Jodl"
+      ],
+      "reference_contexts": [
+        "Richard Münch (actor)\nRichard Heinrich Ludwig Münch (10 January 1916 – 6 June 1987), better known as Richard Münch, was a German actor, best known for portraying Alfred Jodl in \"Patton\" (1970). He also portrayed General Erich Marcks in \"The Longest Day\" (1962).",
+        "Alfred Jodl\nAlfred Josef Ferdinand Jodl (   ; 10 May 1890 – 16 October 1946) was a German general and war criminal during World War II, who served as the Chief of the Operations Staff of the Armed Forces High Command (Oberkommando der Wehrmacht)."
+      ],
+      "supporting_facts": [
+        "Richard Heinrich Ludwig Münch (10 January 1916 – 6 June 1987), better known as Richard Münch, was a German actor, best known for portraying Alfred Jodl in \"Patton\" (1970).",
+        "Alfred Josef Ferdinand Jodl (   ; 10 May 1890 – 16 October 1946) was a German general and war criminal during World War II, who served as the Chief of the Operations Staff of the Armed Forces High Command (Oberkommando der Wehrmacht)."
+      ]
+    },
+    {
+      "id": "HQ062",
+      "hotpot_id": "5a8359c7554299123d8c20fb",
+      "question": "In the summer of 1972, \"Metal Guru\" was the last UK number one for T. Rex and its lead singer. What was his name?",
+      "reference": "Marc Bolan",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Metal Guru",
+        "Marc Bolan"
+      ],
+      "reference_contexts": [
+        "Metal Guru\n\"Metal Guru\" is a song by the British rock band T. Rex, written by Marc Bolan. It was the band's fourth (and final) number one on the UK Singles Chart when it topped the chart for four weeks from May–June 1972. It was also included on the album \"The Slider\" in 1972.",
+        "Marc Bolan\nMarc Bolan ( ; born Mark Feld; 30 September 1947 – 16 September 1977) was an English singer-songwriter, musician, guitarist, and poet. He was best known as the lead singer of the glam rock band T. Rex. Bolan was one of the pioneers of the glam rock movement of the 1970s. He died at age 29 in a car accident a fortnight before his 30th birthday."
+      ],
+      "supporting_facts": [
+        "\"Metal Guru\" is a song by the British rock band T. Rex, written by Marc Bolan.",
+        "It was the band's fourth (and final) number one on the UK Singles Chart when it topped the chart for four weeks from May–June 1972.",
+        "He was best known as the lead singer of the glam rock band T. Rex."
+      ]
+    },
+    {
+      "id": "HQ063",
+      "hotpot_id": "5ae73d235542991e8301cc29",
+      "question": "What production company co-owned by Kevin Loader and Rodger Michell produced My Cousin Rachel?",
+      "reference": "Free Range Films",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Kevin Loader",
+        "My Cousin Rachel (2017 film)"
+      ],
+      "reference_contexts": [
+        "Kevin Loader\nKevin Loader is a British film and television producer. Since 1996, he and co-owner Roger Michell have run a London-based production company, Free Range Films, through which the pair have made several feature films directed by Michell, including \"The Mother\", \"Enduring Love\", \"Venus\", \"Hyde Park on Hudson\", and \"Le Week-end\". Their most recent film is an adaptation by Michell of Daphne Du Maurier's \"My Cousin Rachel\". The company is also developing and producing film and television projects with other directors. Loader was awarded the Bafta for Best Television Serial in 2015 for \"The Lost Honour of Christopher Jefferies\".",
+        "My Cousin Rachel (2017 film)\nMy Cousin Rachel is a 2017 romantic drama film, written and directed by Roger Michell, based upon the 1951 novel of the same name by Daphne du Maurier. It stars Rachel Weisz, Sam Claflin, Iain Glen, Holliday Grainger and Pierfrancesco Favino. It was shot in England and Italy in spring 2016, and is about a young man in Cornwall who meets the wife of his older cousin, suspecting her of having been responsible for his death."
+      ],
+      "supporting_facts": [
+        "Kevin Loader is a British film and television producer.",
+        "Since 1996, he and co-owner Roger Michell have run a London-based production company, Free Range Films, through which the pair have made several feature films directed by Michell, including \"The Mother\", \"Enduring Love\", \"Venus\", \"Hyde Park on Hudson\", and \"Le Week-end\".",
+        "My Cousin Rachel is a 2017 romantic drama film, written and directed by Roger Michell, based upon the 1951 novel of the same name by Daphne du Maurier."
+      ]
+    },
+    {
+      "id": "HQ064",
+      "hotpot_id": "5a77984d5542992a6e59df14",
+      "question": "What occupation do Henry Moore and John Wesley have in common?",
+      "reference": "minister",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Henry Moore (biographer)",
+        "John Wesley"
+      ],
+      "reference_contexts": [
+        "Henry Moore (biographer)\nHenry Moore (1751–1844) was an English Wesleyan minister and biographer.",
+        "John Wesley\nJohn Wesley ( or ; 28 June [O.S. 17 June] 1703 2 March 1791) was an English Anglican cleric and theologian who, with his brother Charles and fellow cleric George Whitefield, founded Methodism."
+      ],
+      "supporting_facts": [
+        "Henry Moore (1751–1844) was an English Wesleyan minister and biographer.",
+        "John Wesley ( or ; 28 June [O.S. 17 June] 1703 2 March 1791) was an English Anglican cleric and theologian who, with his brother Charles and fellow cleric George Whitefield, founded Methodism."
+      ]
+    },
+    {
+      "id": "HQ065",
+      "hotpot_id": "5a758ce05542992db947367c",
+      "question": "Who is younger Jenny Bae or Lionel Richie ?",
+      "reference": "Jenny Bae",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Jenny Bae",
+        "Lionel Richie"
+      ],
+      "reference_contexts": [
+        "Jenny Bae\nJenny Bae (; born 1980) is a South Korean crossover violinist. She has been performing internationally for over a decade. She has guest-performed for musicians such as Luciano Pavarotti, Eric Clapton, Lionel Richie, Andrea Bocelli, Plácido Domingo and Zucchero.",
+        "Lionel Richie\nLionel Brockman Richie Jr. (born June 20, 1949) is an American singer, songwriter, actor and record producer. Beginning in 1968, he was a member of the funk and soul band the Commodores and then launched a solo career in 1982. He also co-wrote the 1985 charity single \"We Are the World\" with Michael Jackson, which sold over 20 million copies. Richie has sold over 100 million records worldwide, making him one of the world's best-selling artists of all time. He is also a five-time Grammy Award winner. In 2016, Richie received the Songwriters Hall of Fame's highest honor, the Johnny Mercer Award."
+      ],
+      "supporting_facts": [
+        "Jenny Bae (; born 1980) is a South Korean crossover violinist.",
+        "Lionel Brockman Richie Jr. (born June 20, 1949) is an American singer, songwriter, actor and record producer."
+      ]
+    },
+    {
+      "id": "HQ066",
+      "hotpot_id": "5ae49f2c5542995ad6573dc1",
+      "question": "Radio On: A Listener's Diary is the first book by an author that voiced what character in the film \"The Incredibles\"?",
+      "reference": "Violet",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Radio On: A Listener's Diary",
+        "Sarah Vowell"
+      ],
+      "reference_contexts": [
+        "Radio On: A Listener's Diary\nRadio On: A Listener's Diary (1997) is the first book by Sarah Vowell. In the book, she writes about listening to the radio for an entire year, switching between rock stations, talk radio, and NPR. In the book she bemoans the state of radio in the United States, referring to it as a \"dreary, intelligence-insulting, ugly, half-assed, audio compromise lorded over by the stultifying FCC.\"",
+        "Sarah Vowell\nSarah Jane Vowell (born December 27, 1969) is an American author, journalist, essayist, social commentator and actress. Often referred to as a \"social observer,\" Vowell has written seven nonfiction books on American history and culture. She was a contributing editor for the radio program \"This American Life\" on Public Radio International from 1996 to 2008, where she produced numerous commentaries and documentaries and toured the country in many of the program's live shows. She was also the voice of Violet in the animated film \"The Incredibles\"."
+      ],
+      "supporting_facts": [
+        "Radio On: A Listener's Diary (1997) is the first book by Sarah Vowell.",
+        "She was also the voice of Violet in the animated film \"The Incredibles\"."
+      ]
+    },
+    {
+      "id": "HQ067",
+      "hotpot_id": "5a8753c05542994846c1cd62",
+      "question": "Before the 2004-2005 Minnesota Timberwovles season, what had Sam Cassell had been honored with what titles?",
+      "reference": "All-NBA Team",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "2004–05 Minnesota Timberwolves season",
+        "Sam Cassell"
+      ],
+      "reference_contexts": [
+        "2004–05 Minnesota Timberwolves season\nThe 2004–05 NBA season was the 16th season for the Minnesota Timberwolves in the National Basketball Association. After appearing in the Conference Finals last year, the Timberwolves played around .500 for the first half of the season. However, the team began to struggle losing six straight games between January and February, slipping below .500. After a 25–26 start, longtime head coach Flip Saunders was fired and replaced with General Manager Kevin McHale for the remainder of the season. The Timberwolves improved under McHale, but finished third in the Northwest Division with a 44–38 record, missing the playoffs for the first time since 1996. Kevin Garnett led the team in scoring, rebounding and assists, as he was selected for the 2005 NBA All-Star Game. Following the season, Latrell Sprewell retired after turning down a contact extension, Sam Cassell was traded to the Los Angeles Clippers, and McHale was fired as coach.",
+        "Sam Cassell\nSamuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers. Drafted 24th overall in the 1993 NBA draft out of Florida State University, Cassell played for eight different teams during his 15-year career. He was selected to the NBA All-Star Game and All-NBA Team once, both in the 2003–04 season. He played the point guard position."
+      ],
+      "supporting_facts": [
+        "The 2004–05 NBA season was the 16th season for the Minnesota Timberwolves in the National Basketball Association.",
+        "He was selected to the NBA All-Star Game and All-NBA Team once, both in the 2003–04 season."
+      ]
+    },
+    {
+      "id": "HQ068",
+      "hotpot_id": "5a8d42c95542994ba4e3dc43",
+      "question": "Dr. Saleha Mahmood Abedin's daughter was born in what year ?",
+      "reference": "1976",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Institute of Muslim Minority Affairs",
+        "Huma Abedin"
+      ],
+      "reference_contexts": [
+        "Institute of Muslim Minority Affairs\nThe Institute of Muslim Minority Affairs is a London-based scholarly institution furthering the study of Muslims in non-Muslim nations. It holds conferences and publishes books and journals. Pakistani-born Dr. Saleha Mahmood Abedin, the mother of Hillary Clinton aide Huma Abedin, is Director of the Institute. It was founded in 1978 by Dr. Syed Zainul Abedin, from India who was educated at Aligarh Muslim University and University of Pennsylvania. Abdullah Omar Naseef, then president of the Muslim World League and president of King Abdulaziz University, provided backing to Abedin for the institute's formation.",
+        "Huma Abedin\nHuma Mahmood Abedin (born July 28, 1976) is an American political staffer who was vice chair of Hillary Clinton's 2016 campaign for President of the United States. Prior to that, Abedin was deputy chief of staff to Clinton, who was U.S. Secretary of State, from 2009 to 2013. She was also the traveling chief of staff and former assistant for Clinton during Clinton's campaign for the Democratic nomination in the 2008 presidential election."
+      ],
+      "supporting_facts": [
+        "Pakistani-born Dr. Saleha Mahmood Abedin, the mother of Hillary Clinton aide Huma Abedin, is Director of the Institute.",
+        "Huma Mahmood Abedin (born July 28, 1976) is an American political staffer who was vice chair of Hillary Clinton's 2016 campaign for President of the United States."
+      ]
+    },
+    {
+      "id": "HQ069",
+      "hotpot_id": "5a78db8055429970f5fffdb2",
+      "question": "Flyboys stars which actor who was nominated for an Academy Award for \"127 Hours\"?",
+      "reference": "James Franco",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "Flyboys (film)",
+        "James Franco"
+      ],
+      "reference_contexts": [
+        "Flyboys (film)\nFlyboys is a 2006 war drama film set during World War I, starring James Franco, Martin Henderson, Jean Reno, Jennifer Decker, David Ellison, Abdul Salis, Philip Winchester, and Tyler Labine. It was directed by Tony Bill, a pilot and aviation enthusiast. The screenplay about men in aerial combat was written by Phil Sears, Blake T. Evans and David S. Ward with the story by Blake T. Evans. Themes of friendship, racial prejudice, revenge and love are also explored in the film.",
+        "James Franco\nJames Edward Franco (born April 19, 1978) is an American actor, director, screenwriter, and producer. For his role in \"127 Hours\" (2010), Franco was nominated for an Academy Award for Best Actor. He is known for his roles in live-action films such as \"Milk\" (2008), \"Pineapple Express\" (2008), \"Rise of the Planet of the Apes\" (2011), \"Spring Breakers\" (2012), \"Oz the Great and Powerful\" (2013), \"This Is the End\" (2013), \" The Disaster Artist\" (2017), and Sam Raimi's \"Spider-Man\" trilogy, while also voicing characters in the animated films \"The Little Prince\" (2015) and \"Sausage Party\" (2016)."
+      ],
+      "supporting_facts": [
+        "Flyboys is a 2006 war drama film set during World War I, starring James Franco, Martin Henderson, Jean Reno, Jennifer Decker, David Ellison, Abdul Salis, Philip Winchester, and Tyler Labine.",
+        "For his role in \"127 Hours\" (2010), Franco was nominated for an Academy Award for Best Actor."
+      ]
+    },
+    {
+      "id": "HQ070",
+      "hotpot_id": "5a87bd4e5542996432c57279",
+      "question": "Who does the minister at The First Church of Springfield help make teaching evolution illegal?",
+      "reference": "Ned Flanders",
+      "type": "bridge",
+      "level": "hard",
+      "gold_titles": [
+        "The Monkey Suit",
+        "Reverend Lovejoy"
+      ],
+      "reference_contexts": [
+        "The Monkey Suit\n\"The Monkey Suit\" is the twenty-first episode of the seventeenth season of the American animated sitcom \"The Simpsons\". It originally aired on the Fox network in the United States on May 14, 2006. In the episode, Ned Flanders is shocked after seeing a new display at the museum about evolution. Together with Reverend Lovejoy, he spreads the religious belief of creationism in Springfield, and at a later town meeting, teaching evolution is made illegal. As a result, Lisa decides to hold secret classes for people interested in evolution. However, she is quickly arrested and a trial against her is initiated.",
+        "Reverend Lovejoy\nReverend Timothy \"Tim\" Lovejoy is a recurring character in the animated television series \"The Simpsons\". He is voiced by Harry Shearer, and first appeared in the episode \"The Telltale Head\". Lovejoy is the minister at The First Church of Springfield—the Protestant church in Springfield. Initially kind-hearted and ambitious, Lovejoy has become apathetic towards others because of Ned Flanders's constant asinine scrupulosity."
+      ],
+      "supporting_facts": [
+        "In the episode, Ned Flanders is shocked after seeing a new display at the museum about evolution.",
+        "Together with Reverend Lovejoy, he spreads the religious belief of creationism in Springfield, and at a later town meeting, teaching evolution is made illegal.",
+        "Lovejoy is the minister at The First Church of Springfield—the Protestant church in Springfield."
+      ]
+    },
+    {
+      "id": "HQ071",
+      "hotpot_id": "5a78dc4d55429970f5fffdb6",
+      "question": "Which band has more members, Muzzle or Primus?",
+      "reference": "Muzzle",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Muzzle (band)",
+        "Primus (band)"
+      ],
+      "reference_contexts": [
+        "Muzzle (band)\nMuzzle is an alternative rock band formed in 1994 by Ryan Maxwell, Wesley Nelson, Burke Thomas, and Greg Collinsworth. They have released two albums with Reprise Records: \"Betty Pickup\" in 1996 and \"Actual Size\" in 1999.",
+        "Primus (band)\nPrimus is an American rock band based in San Francisco, California, currently composed of bassist/vocalist Les Claypool, guitarist Larry \"Ler\" LaLonde and drummer Tim \"Herb\" Alexander. Primus originally formed in 1984 with Claypool and guitarist Todd Huth, later joined by drummer Jay Lane, though the latter two departed the band at the end of 1988. Featuring LaLonde and Alexander, Primus recorded their debut \"Suck on This\" in 1989, followed by four studio albums: \"Frizzle Fry\", \"Sailing the Seas of Cheese\", \"Pork Soda\", and \"Tales from the Punchbowl\". Alexander left the band in 1996, replaced by Bryan \"Brain\" Mantia, and Primus went on to record the original theme song for the TV show \"South Park\" and two more albums, \"Brown Album\" and \"Antipop\", before declaring a hiatus in 2000."
+      ],
+      "supporting_facts": [
+        "Muzzle is an alternative rock band formed in 1994 by Ryan Maxwell, Wesley Nelson, Burke Thomas, and Greg Collinsworth.",
+        "Primus is an American rock band based in San Francisco, California, currently composed of bassist/vocalist Les Claypool, guitarist Larry \"Ler\" LaLonde and drummer Tim \"Herb\" Alexander."
+      ]
+    },
+    {
+      "id": "HQ072",
+      "hotpot_id": "5ab29624554299545a2cf9b5",
+      "question": "Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemian?",
+      "reference": "John H. Garabedian",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "John Garabedian",
+        "Charles A. Agemian"
+      ],
+      "reference_contexts": [
+        "John Garabedian\nJohn H. Garabedian is an American radio personality and disc jockey born on December 20, 1941 (age 75). He is best known as the creator and former long-time host of \"Open House Party\". He has been involved in Massachusetts radio and television stations for over fifty years. Garabedian currently owns three homes, all in New England: one in Southborough, Massachusetts, another on Cape Cod, and a cabin-like home in Cabot, Vermont.",
+        "Charles A. Agemian\nCharles A. Agemian (July 22, 1909 – March 30, 1996) was an American banker who took early retirement from Chase Manhattan Bank, where he was executive vice president of operations, to become chairman and chief executive officer of the Hackensack Trust Co., which later was renamed Garden State National Bank."
+      ],
+      "supporting_facts": [
+        "John H. Garabedian is an American radio personality and disc jockey born on December 20, 1941 (age 75).",
+        "Charles A. Agemian (July 22, 1909 – March 30, 1996) was an American banker who took early retirement from Chase Manhattan Bank, where he was executive vice president of operations, to become chairman and chief executive officer of the Hackensack Trust Co., which later was renamed Garden State National Bank."
+      ]
+    },
+    {
+      "id": "HQ073",
+      "hotpot_id": "5a88364c5542994846c1ce2e",
+      "question": "Were Ransom Riggs and John Berry from the same country?",
+      "reference": "yes",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Ransom Riggs",
+        "John Berry (film director)"
+      ],
+      "reference_contexts": [
+        "Ransom Riggs\nRansom Riggs (born February 3, 1979) is an American writer and filmmaker best known for the book \"Miss Peregrine's Home for Peculiar Children\".",
+        "John Berry (film director)\nJohn Berry (September 6, 1917 – November 29, 1999) was an American film director, who went into self-exile in France when his career was interrupted by the Hollywood blacklist."
+      ],
+      "supporting_facts": [
+        "Ransom Riggs (born February 3, 1979) is an American writer and filmmaker best known for the book \"Miss Peregrine's Home for Peculiar Children\".",
+        "John Berry (September 6, 1917 – November 29, 1999) was an American film director, who went into self-exile in France when his career was interrupted by the Hollywood blacklist."
+      ]
+    },
+    {
+      "id": "HQ074",
+      "hotpot_id": "5ab96c93554299743d22eb63",
+      "question": "Which of the cities of Dujiangyan City and Ezhou has the larger population according to their latest census ?",
+      "reference": "Ezhou",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Dujiangyan City",
+        "Ezhou"
+      ],
+      "reference_contexts": [
+        "Dujiangyan City\nDujiangyan () is a county-level city, a subdivision of Chengdu, the capital of Sichuan Province, People's Republic of China. Its north-west region forms a border with sourthern Ngawa Tibetan and Qiang Autonomous Prefecture. It has an area of 1208 km2 and had a population of 600,000 in 2003.",
+        "Ezhou\nEzhou () is a prefecture-level city in eastern Hubei Province, China. As of the 2010 census, the city had a population of 1,048,668, of which 668,727 lived in the core Echeng District. The Ezhou - Huanggang built-up (\"or metro\") area was home to 1,035,496 inhabitants from the Echeng and Huangzhou, Huanggang Districts."
+      ],
+      "supporting_facts": [
+        "It has an area of 1208 km2 and had a population of 600,000 in 2003.",
+        "Ezhou () is a prefecture-level city in eastern Hubei Province, China.",
+        "As of the 2010 census, the city had a population of 1,048,668, of which 668,727 lived in the core Echeng District.",
+        "The Ezhou - Huanggang built-up (\"or metro\") area was home to 1,035,496 inhabitants from the Echeng and Huangzhou, Huanggang Districts."
+      ]
+    },
+    {
+      "id": "HQ075",
+      "hotpot_id": "5adf53dc5542995534e8c791",
+      "question": "Who has more productions under their belt Ridley Scott or Elmer Clifton?",
+      "reference": "Ridley Scott",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Ridley Scott",
+        "Elmer Clifton"
+      ],
+      "reference_contexts": [
+        "Ridley Scott\nSir Ridley Scott (born 30 November 1937) is an English film director and producer. Following his commercial breakthrough with the science-fiction horror film \"Alien\" (1979), his best known works include the neo-noir dystopian science fiction film \"Blade Runner\" (1982), historical drama and Best Picture Oscar winner \"Gladiator\" (2000), and science fiction film \"The Martian\" (2015).",
+        "Elmer Clifton\nElmer Clifton (March 14, 1890 – October 15, 1949) was an American writer, director and actor from the early silent days. A collaborator of D.W. Griffith, he appeared in \"The Birth of a Nation\" (1915) and \"Intolerance\" (1916) before giving up acting in 1917 to concentrate on work behind the camera, with Griffith and Joseph Henabery as his mentors. His first feature-length solo effort as a director was \"The Flame of Youth\" with Jack Mulhall."
+      ],
+      "supporting_facts": [
+        "Sir Ridley Scott (born 30 November 1937) is an English film director and producer.",
+        "Following his commercial breakthrough with the science-fiction horror film \"Alien\" (1979), his best known works include the neo-noir dystopian science fiction film \"Blade Runner\" (1982), historical drama and Best Picture Oscar winner \"Gladiator\" (2000), and science fiction film \"The Martian\" (2015).",
+        "A collaborator of D.W. Griffith, he appeared in \"The Birth of a Nation\" (1915) and \"Intolerance\" (1916) before giving up acting in 1917 to concentrate on work behind the camera, with Griffith and Joseph Henabery as his mentors."
+      ]
+    },
+    {
+      "id": "HQ076",
+      "hotpot_id": "5a8ff6635542995651fb5086",
+      "question": "Who currently has more store locations? Bearno's or Patxi's Chicago Pizza?",
+      "reference": "Bearno's Pizza",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Bearno's",
+        "Patxi's Chicago Pizza"
+      ],
+      "reference_contexts": [
+        "Bearno's\nBearno's Pizza is a pizza franchise based in Louisville, Kentucky with about 14 locations in Kentucky and Indiana.",
+        "Patxi's Chicago Pizza\nPatxi's is a small pizzeria chain based in the San Francisco Bay Area, founded in San Francisco, California by William Freeman and Francisco “Patxi” Azpiroz. They specialize in Chicago-style pizza. Current locations include Palo Alto, Campbell, Lafayette, San Francisco, Greenbrae, San Jose, Seattle, and Denver. In April, 2014, Patxi's announced plans to open sixty new stores over the next five years. On November 6, 2015, Patxi's partnered with UberEATS to offer $10.00 cheese pizzas that were delivered in a box that said \"Little Nero's\" to honor the twenty-fifth anniversary of the release of the comedy film \"Home Alone\"."
+      ],
+      "supporting_facts": [
+        "Bearno's Pizza is a pizza franchise based in Louisville, Kentucky with about 14 locations in Kentucky and Indiana.",
+        "Patxi's is a small pizzeria chain based in the San Francisco Bay Area, founded in San Francisco, California by William Freeman and Francisco “Patxi” Azpiroz."
+      ]
+    },
+    {
+      "id": "HQ077",
+      "hotpot_id": "5a7db1a15542995ed0d16660",
+      "question": "Who was born first out of Arnel Pineda and Trace Cyrus?",
+      "reference": "Arnel Campaner Pineda",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Arnel Pineda",
+        "Trace Cyrus"
+      ],
+      "reference_contexts": [
+        "Arnel Pineda\nArnel Campaner Pineda (born September 5, 1967) is a Filipino singer and songwriter. He came to prominence in the Philippines during the 1980s and internationally in 2007 as the lead singer of the American rock band Journey.",
+        "Trace Cyrus\nTrace Dempsey Cyrus (born Neil Timothy Helson; February 24, 1989) is an American musician. The son of country singer Billy Ray Cyrus and brother of recording artist Miley Cyrus, he is the backing vocalist and bassist of the band Metro Station. He left the band in 2010 but returned in 2014. In 2010, he began providing vocals and guitar in the pop rock band Ashland HIGH. He also owns the clothing company From Backseats to Bedrooms."
+      ],
+      "supporting_facts": [
+        "Arnel Campaner Pineda (born September 5, 1967) is a Filipino singer and songwriter.",
+        "Trace Dempsey Cyrus (born Neil Timothy Helson; February 24, 1989) is an American musician."
+      ]
+    },
+    {
+      "id": "HQ078",
+      "hotpot_id": "5a90b2175542990a984936ae",
+      "question": "Which tennis player is South African, Mariaan de Swardt or Kateryna Bondarenko?",
+      "reference": "Mariaan de Swardt",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Mariaan de Swardt",
+        "Kateryna Bondarenko"
+      ],
+      "reference_contexts": [
+        "Mariaan de Swardt\nMariaan de Swardt (born 18 March 1971) is a former tennis player from South Africa, who played as a professional from 1988 to 2001. She twice represented her native country at the Summer Olympics, in 1992 and 1996, and was a member of the South African Fed Cup Team in 1992 and 1994–1997. In 2006, de Swardt became a U.S. citizen.",
+        "Kateryna Bondarenko\nKateryna Volodymyrivna Bondarenko (Ukrainian: Катерина Володимирівна Бондаренко , born 8 August 1986) is a professional tennis player from Ukraine and a Doubles Champion at the 2008 Australian Open."
+      ],
+      "supporting_facts": [
+        "Mariaan de Swardt (born 18 March 1971) is a former tennis player from South Africa, who played as a professional from 1988 to 2001.",
+        "Kateryna Volodymyrivna Bondarenko (Ukrainian: Катерина Володимирівна Бондаренко , born 8 August 1986) is a professional tennis player from Ukraine and a Doubles Champion at the 2008 Australian Open."
+      ]
+    },
+    {
+      "id": "HQ079",
+      "hotpot_id": "5a8f1672554299458435d558",
+      "question": "Which genus contains more species, Crowea or Dracula?",
+      "reference": "Dracula",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Crowea",
+        "Dracula (plant)"
+      ],
+      "reference_contexts": [
+        "Crowea\nCrowea is a genus of small evergreen shrubs in the plant family Rutaceae sometimes known as Waxflowers. There are three species and many subspecies and cultivars, all of which are popular as ornamentals because of their abundant, attractive flowers which often occur during autumn and winter. \"Crowea\" species are all endemic to Australia, where they occur in Victoria, New South Wales and Western Australia.",
+        "Dracula (plant)\nThe orchid genus Dracula, abbreviated as Drac in horticultural trade, consists of 118 species native to Mexico, Central America, Colombia, Ecuador and Peru. The name \"Dracula\" literally means \"little dragon\", an allusion to the mythical Count Dracula, a lead character in numerous vampire novels and films. The name was applied to the orchid because of the blood-red color of several of the species, the strange aspect of the long spurs of the sepals."
+      ],
+      "supporting_facts": [
+        "There are three species and many subspecies and cultivars, all of which are popular as ornamentals because of their abundant, attractive flowers which often occur during autumn and winter.",
+        "The orchid genus Dracula, abbreviated as Drac in horticultural trade, consists of 118 species native to Mexico, Central America, Colombia, Ecuador and Peru."
+      ]
+    },
+    {
+      "id": "HQ080",
+      "hotpot_id": "5a81adfc55429903bc27b9a4",
+      "question": "Who had a longer film career, Harry Sweet or John Biddle?",
+      "reference": "John Scott Biddle",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Harry Sweet",
+        "John Biddle (yachting cinematographer)"
+      ],
+      "reference_contexts": [
+        "Harry Sweet\nHarry Sweet (October 2, 1901 – June 18, 1933) was an American actor, director and screenwriter. He appeared in 57 films between 1919 and 1932. He also directed 54 films between 1920 and 1933, including one Harry Langdon short, two of the Tay Garnett- penned comedies Stan Laurel made for Joe Rock, and fifteen of the earliest entries in the Edgar Kennedy \"Average Man\" series.",
+        "John Biddle (yachting cinematographer)\nJohn Scott Biddle (1925–2008) was a foremost yachting cinematographer and lecturer, establishing a film-making career that spanned more than forty years. His films captured not only the technical aspects of sailing but also the human story in events as tranquil as a Nova Scotia cruise and as grand as the America's Cup Races."
+      ],
+      "supporting_facts": [
+        "He appeared in 57 films between 1919 and 1932.",
+        "He also directed 54 films between 1920 and 1933, including one Harry Langdon short, two of the Tay Garnett- penned comedies Stan Laurel made for Joe Rock, and fifteen of the earliest entries in the Edgar Kennedy \"Average Man\" series.",
+        "John Scott Biddle (1925–2008) was a foremost yachting cinematographer and lecturer, establishing a film-making career that spanned more than forty years."
+      ]
+    },
+    {
+      "id": "HQ081",
+      "hotpot_id": "5ae15e125542990adbacf773",
+      "question": "In between Berghuis v. Thompkins and Mississippi University for Women v. Hogan which one was a  case decided 5-4 by the Supreme Court of the United States?",
+      "reference": "Mississippi University for Women",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Berghuis v. Thompkins",
+        "Mississippi University for Women v. Hogan"
+      ],
+      "reference_contexts": [
+        "Berghuis v. Thompkins\nBerghuis v. Thompkins, 560 U.S. 370 (2010) (docket 08-1470), is a decision by the United States Supreme Court in which the Court considered the position of a suspect who understands his or her right to remain silent under \"Miranda v. Arizona\" and is aware he or she has the right to remain silent, but does not explicitly invoke or waive the right.",
+        "Mississippi University for Women v. Hogan\nMississippi University for Women v. Hogan, 458 U.S. 718 (1982) was a case decided 5-4 by the Supreme Court of the United States. The court held that the single-sex admissions policy of the Mississippi University for Women violated the Equal Protection Clause of the Fourteenth Amendment to the United States Constitution."
+      ],
+      "supporting_facts": [
+        "Berghuis v. Thompkins, 560 U.S. 370 (2010) (docket 08-1470), is a decision by the United States Supreme Court in which the Court considered the position of a suspect who understands his or her right to remain silent under \"Miranda v. Arizona\" and is aware he or she has the right to remain silent, but does not explicitly invoke or waive the right.",
+        "Mississippi University for Women v. Hogan, 458 U.S. 718 (1982) was a case decided 5-4 by the Supreme Court of the United States."
+      ]
+    },
+    {
+      "id": "HQ082",
+      "hotpot_id": "5a872c3f5542994775f607a8",
+      "question": "Which company is an American petroleum company, EOG Resources Inc. or General Mills Inc.?",
+      "reference": "EOG Resources, Inc.",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "EOG Resources",
+        "General Mills"
+      ],
+      "reference_contexts": [
+        "EOG Resources\nEOG Resources, Inc. (successor to Enron Oil & Gas Company) is an American petroleum and natural gas exploration company headquartered in the Heritage Plaza building in Houston, Texas.",
+        "General Mills\nGeneral Mills, Inc., is an American multinational manufacturer and marketer of branded consumer foods sold through retail stores. It is headquartered in Golden Valley, Minnesota, a suburb of Minneapolis. The company markets many well-known North American brands, including Annie's Homegrown, Betty Crocker, Yoplait, Colombo, Totino's, Pillsbury, Old El Paso, Häagen-Dazs, Cheerios, Trix, Cocoa Puffs, and Lucky Charms. Its brand portfolio includes more than 89 other leading U.S. brands and numerous category leaders around the world."
+      ],
+      "supporting_facts": [
+        "EOG Resources, Inc. (successor to Enron Oil & Gas Company) is an American petroleum and natural gas exploration company headquartered in the Heritage Plaza building in Houston, Texas.",
+        "General Mills, Inc., is an American multinational manufacturer and marketer of branded consumer foods sold through retail stores."
+      ]
+    },
+    {
+      "id": "HQ083",
+      "hotpot_id": "5ae3d2715542990afbd1e1e9",
+      "question": "Are Control Room and Meeting Resistance both documentary films that involve Iraq?",
+      "reference": "yes",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Control Room (film)",
+        "Meeting Resistance"
+      ],
+      "reference_contexts": [
+        "Control Room (film)\nControl Room is a 2004 documentary film about Al Jazeera and its relations with the US Central Command (CENTCOM), as well as the other news organizations that covered the 2003 invasion of Iraq. Made by Egyptian-American filmmaker Jehane Noujaim, the film was distributed by Magnolia Pictures (owned by 2929 Entertainment).",
+        "Meeting Resistance\nMeeting Resistance is a 2007 documentary film about the Iraq War. The film presents the views of eleven Iraqi resistance fighters in the Adhamiyah neighborhood of Baghdad. The film was directed by journalists Molly Bingham (United States) and Steve Connors (UK)."
+      ],
+      "supporting_facts": [
+        "Control Room is a 2004 documentary film about Al Jazeera and its relations with the US Central Command (CENTCOM), as well as the other news organizations that covered the 2003 invasion of Iraq.",
+        "Meeting Resistance is a 2007 documentary film about the Iraq War."
+      ]
+    },
+    {
+      "id": "HQ084",
+      "hotpot_id": "5ae2136d5542997283cd23b6",
+      "question": "Which is the Oil Capital of China, Chaoyang District, Shantou, or Daqing?",
+      "reference": "Daqing",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Chaoyang District, Shantou",
+        "Daqing"
+      ],
+      "reference_contexts": [
+        "Chaoyang District, Shantou\nChaoyang District (postal: Chaoyang; ) is a district in the municipality of Shantou, Guangdong Province, China.",
+        "Daqing\nDaqing (; formerly romanized as Taching) is a prefecture-level city in the west of Heilongjiang province, People's Republic of China. The name literally means \"Great Celebration\". Daqing is known as the Oil Capital of China and has experienced a phenomenal boom since oil was discovered at the Daqing Oil Field in 1959."
+      ],
+      "supporting_facts": [
+        "Chaoyang District (postal: Chaoyang; ) is a district in the municipality of Shantou, Guangdong Province, China.",
+        "Daqing (; formerly romanized as Taching) is a prefecture-level city in the west of Heilongjiang province, People's Republic of China.",
+        "The name literally means \"Great Celebration\".",
+        "Daqing is known as the Oil Capital of China and has experienced a phenomenal boom since oil was discovered at the Daqing Oil Field in 1959."
+      ]
+    },
+    {
+      "id": "HQ085",
+      "hotpot_id": "5ae0504055429942ec259c6a",
+      "question": "Which genus contains more species, Laurus or Syzygium?",
+      "reference": "Syzygium",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Laurus",
+        "Syzygium"
+      ],
+      "reference_contexts": [
+        "Laurus\nLaurus is a genus of evergreen trees belonging to the Laurel family, Lauraceae. The genus includes three or more species.",
+        "Syzygium\nSyzygium is a genus of flowering plants that belongs to the myrtle family, Myrtaceae. The genus comprises about 1200–1800 species, and has a native range that extends from Africa and Madagascar through southern Asia east through the Pacific. Its highest levels of diversity occur from Malaysia to northeastern Australia, where many species are very poorly known and many more have not been described taxonomically."
+      ],
+      "supporting_facts": [
+        "The genus includes three or more species.",
+        "Syzygium is a genus of flowering plants that belongs to the myrtle family, Myrtaceae.",
+        "The genus comprises about 1200–1800 species, and has a native range that extends from Africa and Madagascar through southern Asia east through the Pacific."
+      ]
+    },
+    {
+      "id": "HQ086",
+      "hotpot_id": "5a76387d554299109176e6ba",
+      "question": "Who was born first Am Rong or Ava DuVernay ?",
+      "reference": "Am Rong",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Am Rong",
+        "Ava DuVernay"
+      ],
+      "reference_contexts": [
+        "Am Rong\nAm Rong (1929 – May 1975) was a Cambodian soldier and filmmaker, who acted as a spokesman on military matters for the Khmer Republic during the Cambodian Civil War. Western journalists commented on the irony of his name as he gave briefings which \"painted a rosy picture of the increasingly desperate situation on the ground\" during the war.",
+        "Ava DuVernay\nAva Marie DuVernay ( ; born August 24, 1972) is an American director, screenwriter, film marketer, and film distributor. At the 2012 Sundance Film Festival, DuVernay won the Best Director Prize for her second feature film \"Middle of Nowhere\", becoming the first African-American woman to win the award. For her work in \"Selma\" (2014), DuVernay was the first black female director to be nominated for a Golden Globe Award. With \"Selma\", she was also the first black female director to have her film nominated for the Academy Award for Best Picture. In 2017, she was nominated for the Academy Award for Best Documentary Feature for her film \"13th\" (2016)."
+      ],
+      "supporting_facts": [
+        "Am Rong (1929 – May 1975) was a Cambodian soldier and filmmaker, who acted as a spokesman on military matters for the Khmer Republic during the Cambodian Civil War.",
+        "Ava Marie DuVernay ( ; born August 24, 1972) is an American director, screenwriter, film marketer, and film distributor."
+      ]
+    },
+    {
+      "id": "HQ087",
+      "hotpot_id": "5add67555542992ae4cec54e",
+      "question": "Which of these battles occurred earlier--the Battle of Peleliu or the Battle of Belleau Wood?",
+      "reference": "The Battle of Belleau Wood",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Battle of Belleau Wood",
+        "Battle of Peleliu"
+      ],
+      "reference_contexts": [
+        "Battle of Belleau Wood\nThe Battle of Belleau Wood (1–26 June 1918) occurred during the German Spring Offensive in World War I, near the Marne River in France. The battle was fought between the U.S. 2nd (under the command of Major General Omar Bundy) and 3rd Divisions along with French and British forces against an assortment of German units including elements from the 237th, 10th, 197th, 87th, and 28th Divisions. The battle has become a key component of the lore of the United States Marine Corps.",
+        "Battle of Peleliu\nThe Battle of Peleliu, codenamed Operation Stalemate II by the United States military, was fought between the U.S. and the Empire of Japan during the Mariana & Palau Campaign of World War II, from September to November 1944, on the island of Peleliu."
+      ],
+      "supporting_facts": [
+        "The Battle of Belleau Wood (1–26 June 1918) occurred during the German Spring Offensive in World War I, near the Marne River in France.",
+        "The Battle of Peleliu, codenamed Operation Stalemate II by the United States military, was fought between the U.S. and the Empire of Japan during the Mariana & Palau Campaign of World War II, from September to November 1944, on the island of Peleliu."
+      ]
+    },
+    {
+      "id": "HQ088",
+      "hotpot_id": "5adf50c05542992d7e9f931e",
+      "question": "Are both The Sundays and The Radio Dept. dream pop bands? ",
+      "reference": "no",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "The Sundays",
+        "The Radio Dept."
+      ],
+      "reference_contexts": [
+        "The Sundays\nThe Sundays (stylized as The SUNDAYS on all releases) are an English alternative rock band. The band formed in the late 1980s and released three albums in the 1990s.",
+        "The Radio Dept.\nThe Radio Dept. is a dream pop band from Lund, Sweden signed to Labrador Records."
+      ],
+      "supporting_facts": [
+        "The Sundays (stylized as The SUNDAYS on all releases) are an English alternative rock band.",
+        "The Radio Dept. is a dream pop band from Lund, Sweden signed to Labrador Records."
+      ]
+    },
+    {
+      "id": "HQ089",
+      "hotpot_id": "5a7e1cad55429965cec5ea75",
+      "question": "Was Pocahontas made before Born in China?",
+      "reference": "yes",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Pocahontas (1995 film)",
+        "Born in China"
+      ],
+      "reference_contexts": [
+        "Pocahontas (1995 film)\nPocahontas is a 1995 American animated musical romantic-comedy-drama film produced by Walt Disney Feature Animation for Walt Disney Pictures. The 33rd Disney animated feature film, the film is part of the era known as the Disney Renaissance which lasted from 1989 to 1999. Directed by Mike Gabriel and Eric Goldberg, the film is inspired by the known history and folklore surrounding the Native American woman Pocahontas and portrays a fictionalized account of her historical encounter with Englishman John Smith and the Jamestown settlers that arrived from the Virginia Company. The voice cast features Irene Bedard, Mel Gibson, David Ogden Stiers, Russell Means, Christian Bale, Billy Connolly, and Linda Hunt. The musical score was written by Alan Menken, with songs written by Menken and lyricist Stephen Schwartz.",
+        "Born in China\nBorn in China (我們誕生在中國) is a 2016 nature documentary film directed by Lu Chuan. A co-production between Disneynature and Shanghai Media Group, the film was released in China on August 12, 2016 and in the United States on April 21, 2017, one day before Earth Day. The film focuses on a female snow leopard named Dawa and her cubs, a young golden snub-nosed monkey named Tao Tao, a female giant panda named Ya Ya along with her daughter Mei Mei, and a herd of chiru. The American release of the film is narrated by John Krasinski and the Chinese release is narrated by Zhou Xun."
+      ],
+      "supporting_facts": [
+        "Pocahontas is a 1995 American animated musical romantic-comedy-drama film produced by Walt Disney Feature Animation for Walt Disney Pictures.",
+        "Born in China (我們誕生在中國) is a 2016 nature documentary film directed by Lu Chuan."
+      ]
+    },
+    {
+      "id": "HQ090",
+      "hotpot_id": "5ac176555542994d76dcce47",
+      "question": "What profession does H. L. Mencken and Albert Camus have in common?",
+      "reference": "journalist",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "H. L. Mencken",
+        "Albert Camus"
+      ],
+      "reference_contexts": [
+        "H. L. Mencken\nHenry Louis Mencken (September 12, 1880 – January 29, 1956) was an American journalist, satirist, cultural critic and scholar of American English. Known as the \"Sage of Baltimore\", he is regarded as one of the most influential American writers and prose stylists of the first half of the twentieth century. He commented widely on the social scene, literature, music, prominent politicians and contemporary movements. His satirical reporting on the Scopes trial, which he dubbed the \"Monkey Trial\", also gained him attention.",
+        "Albert Camus\nAlbert Camus (] ; 7 November 1913 – 4 January 1960) was a French philosopher, author, and journalist. His views contributed to the rise of the philosophy known as absurdism. He wrote in his essay \"The Rebel\" that his whole life was devoted to opposing the philosophy of nihilism while still delving deeply into individual freedom. He won the Nobel Prize in Literature in 1957."
+      ],
+      "supporting_facts": [
+        "Henry Louis Mencken (September 12, 1880 – January 29, 1956) was an American journalist, satirist, cultural critic and scholar of American English.",
+        "Albert Camus (] ; 7 November 1913 – 4 January 1960) was a French philosopher, author, and journalist."
+      ]
+    },
+    {
+      "id": "HQ091",
+      "hotpot_id": "5a84f06f5542994c784dda92",
+      "question": "What type of community does Bob Hope Airport and Boeing Field have in common?",
+      "reference": "public",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Bob Hope Airport",
+        "Boeing Field"
+      ],
+      "reference_contexts": [
+        "Bob Hope Airport\nBob Hope Airport, branded as Hollywood Burbank Airport (IATA: BUR, ICAO: KBUR, FAA LID: BUR) is a public airport 3 mi northwest of downtown Burbank, in Los Angeles County, California. The airport serves the northern Greater Los Angeles area, including Glendale, Pasadena, and the San Fernando Valley. It is closer to Griffith Park and Hollywood than Los Angeles International Airport (LAX), and is the only airport in the area with a direct rail connection to downtown Los Angeles. Non-stop flights mostly serve cities in the western United States, while JetBlue Airways has a daily red-eye flight to New York City.",
+        "Boeing Field\nBoeing Field, officially King County International Airport (IATA: BFI, ICAO: KBFI, FAA LID: BFI) , is a public airport owned and operated by King County, five miles south of downtown Seattle, Washington. The airport is sometimes referred to as KCIA, but this is not the airport identifier. The airport has some passenger service, but is mostly used by general aviation and cargo. It is named after the founder of Boeing, William E. Boeing."
+      ],
+      "supporting_facts": [
+        "Bob Hope Airport, branded as Hollywood Burbank Airport (IATA: BUR, ICAO: KBUR, FAA LID: BUR) is a public airport 3 mi northwest of downtown Burbank, in Los Angeles County, California.",
+        "Boeing Field, officially King County International Airport (IATA: BFI, ICAO: KBFI, FAA LID: BFI) , is a public airport owned and operated by King County, five miles south of downtown Seattle, Washington."
+      ]
+    },
+    {
+      "id": "HQ092",
+      "hotpot_id": "5a7dc7895542995ed0d16673",
+      "question": "Which writer is older, Joseph Epstein or Milan Kundera?",
+      "reference": "Milan Kundera",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Joseph Epstein (writer)",
+        "Milan Kundera"
+      ],
+      "reference_contexts": [
+        "Joseph Epstein (writer)\nJoseph Epstein (born January 9, 1937) is an essayist, short-story writer, and editor. From 1974 to 1998 he was the editor of the magazine \"The American Scholar\".",
+        "Milan Kundera\nMilan Kundera (] ; born 1 April 1929) is a Czech-born French writer who went into exile in France in 1975, and became a naturalised French citizen in 1981. He \"sees himself as a French writer and insists his work should be studied as French literature and classified as such in book stores\"."
+      ],
+      "supporting_facts": [
+        "Joseph Epstein (born January 9, 1937) is an essayist, short-story writer, and editor.",
+        "Milan Kundera (] ; born 1 April 1929) is a Czech-born French writer who went into exile in France in 1975, and became a naturalised French citizen in 1981."
+      ]
+    },
+    {
+      "id": "HQ093",
+      "hotpot_id": "5ab9e2055542994dbf019884",
+      "question": "What kind of group does At the Drive-In and Muse have in common?",
+      "reference": "band",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "At the Drive-In",
+        "Muse (band)"
+      ],
+      "reference_contexts": [
+        "At the Drive-In\nAt the Drive-In is an American punk rock band from El Paso, Texas, formed in 1994. The band currently consists of Cedric Bixler (vocals), Omar Rodríguez (guitar, vocals), Paul Hinojos (bass), Tony Hajjar (drums) and Keeley Davis (guitar, vocals). After several early line-up changes, the band solidified into a five-piece, consisting of Bixler, Rodríguez, Jim Ward, Hinojos and Hajjar. At the Drive-In released three studio albums and five EPs before breaking up in 2001. Their third and final album before their split, 2000's \"Relationship of Command\", received a number of accolades and is cited as a landmark of the post-hardcore genre. Following the breakup, Bixler-Zavala and Rodríguez-López formed The Mars Volta while Ward, Hinojos, and Hajjar formed Sparta. At the Drive-In reunited in January 2012 and played the 2012 Coachella Valley Music and Arts Festival, as well as the 2012 Lollapalooza Festival. In 2016, the band reunited for a second time, with guitarist and occasional lead vocalist Jim Ward no longer participating. He was replaced by Sparta's Keeley Davis. The band released their fourth studio album, \"in•ter a•li•a\", in 2017.",
+        "Muse (band)\nMuse are an English rock band from Teignmouth, Devon, formed in 1994. The band consists of Matt Bellamy (lead vocals, guitar, piano, keyboards), Chris Wolstenholme (bass guitar, backing vocals, keyboards) and Dominic Howard (drums, percussion)."
+      ],
+      "supporting_facts": [
+        "The band currently consists of Cedric Bixler (vocals), Omar Rodríguez (guitar, vocals), Paul Hinojos (bass), Tony Hajjar (drums) and Keeley Davis (guitar, vocals).",
+        "The band consists of Matt Bellamy (lead vocals, guitar, piano, keyboards), Chris Wolstenholme (bass guitar, backing vocals, keyboards) and Dominic Howard (drums, percussion)."
+      ]
+    },
+    {
+      "id": "HQ094",
+      "hotpot_id": "5ab295eb554299194fa93412",
+      "question": "Were both Ernst Messerschmid and Reinhold Ewald ESA astronauts?",
+      "reference": "no",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Ernst Messerschmid",
+        "Reinhold Ewald"
+      ],
+      "reference_contexts": [
+        "Ernst Messerschmid\nProf. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+        "Reinhold Ewald\nDr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+      ],
+      "supporting_facts": [
+        "Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+        "Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+      ]
+    },
+    {
+      "id": "HQ095",
+      "hotpot_id": "5a876b265542993e715abf33",
+      "question": "Who was a more acclaimed guitarist Stephen Christian or Joe Gooch?",
+      "reference": "and lead guitarist",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Stephen Christian",
+        "Joe Gooch"
+      ],
+      "reference_contexts": [
+        "Stephen Christian\nStephen Christian is an American singer and songwriter best known as the former lead vocalist of the alternative rock band Anberlin, as well as the vocalist of his acoustic side-project Anchor & Braille. He and his bandmates started Anberlin in 2002, after the demise of their previous group, known as SaGoh 24/7. He is one of the main songwriters for Anberlin along with Joseph Milligan, and with the band has released seven albums, the final being in 2014. Many of the albums in the Anberlin discography have peaked in the top ten on various \"Billboard\" charts.",
+        "Joe Gooch\nJoe Gooch (born 3 May 1977) was Ten Years After's most recent lead vocalist and lead guitarist."
+      ],
+      "supporting_facts": [
+        "Stephen Christian is an American singer and songwriter best known as the former lead vocalist of the alternative rock band Anberlin, as well as the vocalist of his acoustic side-project Anchor & Braille.",
+        "Joe Gooch (born 3 May 1977) was Ten Years After's most recent lead vocalist and lead guitarist."
+      ]
+    },
+    {
+      "id": "HQ096",
+      "hotpot_id": "5adfc77b554299603e4183ab",
+      "question": "Is Edison Sault Power Canal somehow linked with or used with the Cayuga–Seneca Canal?",
+      "reference": "no",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Edison Sault Power Canal",
+        "Cayuga–Seneca Canal"
+      ],
+      "reference_contexts": [
+        "Edison Sault Power Canal\nThe Edison Sault Power Canal supplies the Saint Marys Falls Hydropower Plant, a Cloverland Electric Cooperative hydroelectric plant, in Sault Ste. Marie, Michigan. Excavation of the power canal began in September 1898 and was completed in June 1902. The canal and hydroelectric complex were named a Historic Civil Engineering Landmark in 1983.",
+        "Cayuga–Seneca Canal\nThe Cayuga–Seneca Canal is a canal in New York, United States. It is now part of the New York State Canal System."
+      ],
+      "supporting_facts": [
+        "The Edison Sault Power Canal supplies the Saint Marys Falls Hydropower Plant, a Cloverland Electric Cooperative hydroelectric plant, in Sault Ste. Marie, Michigan.",
+        "Excavation of the power canal began in September 1898 and was completed in June 1902.",
+        "The canal and hydroelectric complex were named a Historic Civil Engineering Landmark in 1983.",
+        "The Cayuga–Seneca Canal is a canal in New York, United States.",
+        "It is now part of the New York State Canal System."
+      ]
+    },
+    {
+      "id": "HQ097",
+      "hotpot_id": "5ae26905554299492dc91c17",
+      "question": "Are Dennis Locorriere and Maja Ivarsson both lead singers?",
+      "reference": "yes",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Dennis Locorriere",
+        "Maja Ivarsson"
+      ],
+      "reference_contexts": [
+        "Dennis Locorriere\nDennis Michael Locorriere (born June 13, 1949; Union City, New Jersey, United States) is the American former lead vocalist and guitarist of the soft rock group Dr. Hook & the Medicine Show, later Dr. Hook. He continues as a solo artist, session musician and songwriter.",
+        "Maja Ivarsson\nMaja Ivarsson, (] , born 2 October 1979) is a Swedish singer and lead vocalist of the Swedish indie rock band The Sounds."
+      ],
+      "supporting_facts": [
+        "Dennis Michael Locorriere (born June 13, 1949; Union City, New Jersey, United States) is the American former lead vocalist and guitarist of the soft rock group Dr. Hook & the Medicine Show, later Dr. Hook.",
+        "Maja Ivarsson, (] , born 2 October 1979) is a Swedish singer and lead vocalist of the Swedish indie rock band The Sounds."
+      ]
+    },
+    {
+      "id": "HQ098",
+      "hotpot_id": "5ac370ce5542995ef918c18c",
+      "question": "Are Southwest Florida International Airport and Henry E. Rohlsen Airport both in Florida?",
+      "reference": "no",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Southwest Florida International Airport",
+        "Henry E. Rohlsen Airport"
+      ],
+      "reference_contexts": [
+        "Southwest Florida International Airport\nSouthwest Florida International Airport (IATA: RSW, ICAO: KRSW, FAA LID: RSW) is a county-owned airport in the South Fort Myers region of unincorporated Lee County, Florida. The airport's market is Southwest Florida: Bonita Springs, Cape Coral, Captiva Island, Estero, Fort Myers, Marco Island, Naples and Sanibel Island. In 2015 passengers numbered 8,371,801. The airport is the second busiest single-runway airport in the United States after San Diego International Airport. It is a U.S. Customs and Border Protection port of entry.",
+        "Henry E. Rohlsen Airport\nHenry E. Rohlsen Airport (IATA: STX, ICAO: TISX, FAA LID: STX) is a public airport located six miles (10 km) southwest of Christiansted on the island of St. Croix in the United States Virgin Islands. The airport is named after Henry E. Rohlsen, a St. Croix native who was one of the Tuskegee Airmen during World War II."
+      ],
+      "supporting_facts": [
+        "Southwest Florida International Airport (IATA: RSW, ICAO: KRSW, FAA LID: RSW) is a county-owned airport in the South Fort Myers region of unincorporated Lee County, Florida.",
+        "Henry E. Rohlsen Airport (IATA: STX, ICAO: TISX, FAA LID: STX) is a public airport located six miles (10 km) southwest of Christiansted on the island of St. Croix in the United States Virgin Islands."
+      ]
+    },
+    {
+      "id": "HQ099",
+      "hotpot_id": "5a83041355429966c78a6ae8",
+      "question": "Both Ralph Bakshi and Béla Gaál had what roll in film making?",
+      "reference": "film director",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Ralph Bakshi",
+        "Béla Gaál"
+      ],
+      "reference_contexts": [
+        "Ralph Bakshi\nRalph Bakshi (born October 29, 1938) is an American director of animated and live-action films. In the 1970s, he established an alternative to mainstream animation through independent and adult-oriented productions. Between 1972 and 2015, he directed ten theatrically released feature films, six of which he wrote. He has been involved in numerous television projects as director, writer, producer and animator.",
+        "Béla Gaál\nBéla Gaál (2 January 1893 – 18 February 1945) was a Hungarian film director. His 1930 film \"Csak egy kislány van a világon\" was the first sound film to be made in Hungary."
+      ],
+      "supporting_facts": [
+        "He has been involved in numerous television projects as director, writer, producer and animator.",
+        "Béla Gaál (2 January 1893 – 18 February 1945) was a Hungarian film director."
+      ]
+    },
+    {
+      "id": "HQ100",
+      "hotpot_id": "5ae224da554299234fd043ee",
+      "question": "Do the drinks Gibson and Zurracapote both contain gin?",
+      "reference": "no",
+      "type": "comparison",
+      "level": "hard",
+      "gold_titles": [
+        "Gibson (cocktail)",
+        "Zurracapote"
+      ],
+      "reference_contexts": [
+        "Gibson (cocktail)\nThe Gibson is a mixed drink made with gin and vermouth, and often garnished with a pickled onion. The oldest published recipe for the Gibson is found in the 1908 book, \"The World's Drinks And How To Mix Them\" by William Boothby.",
+        "Zurracapote\nZurracapote (sometimes abbreviated as zurra) is a popular Spanish alcoholic mixed drink, similar to sangría. It consists of red wine mixed with fruit such as peaches and lemons, sugar, and cinnamon. The concoction is then traditionally left to steep for several days, though some recipes call for the addition of other alcoholic beverages, juices, and fruit extracts. The result is a mild-to-medium alcoholic drink, similar to sangría."
+      ],
+      "supporting_facts": [
+        "The Gibson is a mixed drink made with gin and vermouth, and often garnished with a pickled onion.",
+        "It consists of red wine mixed with fruit such as peaches and lemons, sugar, and cinnamon."
+      ]
+    }
+  ]
+}
