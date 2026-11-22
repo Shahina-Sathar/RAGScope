@@ -71,3 +71,40 @@ class PineconeIndexer:
 
         with open(self.bm25_chunks_file, "w") as f:
             json.dump(all_chunks, f, indent=2)
+
+
+def restore_bm25_chunks_from_pinecone() -> int:
+    """Recreate bm25_chunks.json from Pinecone metadata if it is missing.
+
+    Hosts with ephemeral disks (e.g. free Hugging Face Spaces) wipe the file on
+    restart, while Pinecone keeps every chunk's text in its metadata.
+    """
+    bm25_chunks_file = Path(settings.upload_dir) / "bm25_chunks.json"
+    if bm25_chunks_file.exists():
+        return 0
+
+    index = Pinecone(api_key=settings.pinecone_api_key).Index(settings.pinecone_index_name)
+    chunks = []
+    for page in index.list():
+        # pinecone>=8 yields ListResponse pages; older clients yield lists of ids
+        ids = [item.id for item in page.vectors] if hasattr(page, "vectors") else list(page)
+        if not ids:
+            continue
+        fetched = index.fetch(ids=ids)
+        for vector in fetched.vectors.values():
+            metadata = vector.metadata or {}
+            if "text" not in metadata:
+                continue
+            chunks.append(
+                {
+                    "chunk_id": metadata.get("chunk_id", vector.id),
+                    "text": metadata["text"],
+                    "document_name": metadata.get("document_name", ""),
+                    "page_number": int(metadata.get("page_number", 0)),
+                }
+            )
+
+    bm25_chunks_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(bm25_chunks_file, "w") as f:
+        json.dump(chunks, f, indent=2)
+    return len(chunks)

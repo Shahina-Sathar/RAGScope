@@ -1,4 +1,6 @@
 """RAGScope Dashboard - Main Application."""
+import hmac
+import os
 import streamlit as st
 import sys
 from pathlib import Path
@@ -51,6 +53,18 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
+# Optional password gate for public deployments (set APP_PASSWORD to enable)
+APP_PASSWORD = os.getenv("APP_PASSWORD")
+if APP_PASSWORD and not st.session_state.get("authenticated"):
+    st.title("🔍 RAGScope")
+    entered = st.text_input("Password", type="password")
+    if entered and hmac.compare_digest(entered, APP_PASSWORD):
+        st.session_state["authenticated"] = True
+        st.rerun()
+    elif entered:
+        st.error("Incorrect password")
+    st.stop()
 
 # Initialize API client
 @st.cache_resource

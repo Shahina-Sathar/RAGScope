@@ -60,3 +60,7 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Files uploaded through the app (personal documents). The sample NovaDesk PDFs
+# and bm25_chunks.json that were committed before stay tracked.
+backend/data/uploads/*

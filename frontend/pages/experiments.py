@@ -1,4 +1,6 @@
 """Experiments page - Create, run, and manage experiments."""
+import os
+
 import streamlit as st
 from utils.api_client import RAGScopeAPI
 
@@ -120,7 +122,10 @@ def render_experiments(api_client: RAGScopeAPI):
             description = st.text_area("Description", placeholder="Describe the experiment...")
             dataset_path = st.text_input(
                 "Dataset Path",
-                value="/mnt/d/Work/RAGScope/evaluation/questions_mini.json",
+                value=os.getenv(
+                    "RAGSCOPE_DEFAULT_DATASET",
+                    "/mnt/d/Work/RAGScope/evaluation/questions_mini.json",
+                ),
                 help="Absolute path to evaluation dataset JSON file"
             )
             
